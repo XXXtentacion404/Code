@@ -1,0 +1,3 @@
+D:/code/clion_code/Template/cmake-build-debug/CMakeFiles/Template.elf.dir
+D:/code/clion_code/Template/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/code/clion_code/Template/cmake-build-debug/CMakeFiles/rebuild_cache.dir

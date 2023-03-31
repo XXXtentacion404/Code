@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Core/Src/main.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/LCD/lcd.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/LCD/lcd.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Myapp/APP/All_head/All_head.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Myapp/APP/All_init/All_init.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Myapp/APP/Encode/encode.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Myapp/Inc/All_head.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Myapp/Inc/delay.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Myapp/SYSTEM/delay/delay.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Myapp/SYSTEM/delay/delay.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Myapp/SYSTEM/sys/sys.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Myapp/Src/delay.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Myapp/Src/sys.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Myapp/Src/usart.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Myapp/Src/vofa+.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Myapp/delay.h" charset="GBK" />
+  </component>
+</project>
