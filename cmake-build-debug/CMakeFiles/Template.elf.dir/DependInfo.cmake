@@ -14,6 +14,7 @@ set(CMAKE_ASM_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_ASM
+  "ARM_MATH_CM4"
   "DEBUG"
   "STM32F407xx"
   "USE_HAL_DRIVER"
@@ -42,6 +43,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/code/clion_code/Template/Core/Src/syscalls.c" "CMakeFiles/Template.elf.dir/Core/Src/syscalls.c.obj" "gcc" "CMakeFiles/Template.elf.dir/Core/Src/syscalls.c.obj.d"
   "D:/code/clion_code/Template/Core/Src/sysmem.c" "CMakeFiles/Template.elf.dir/Core/Src/sysmem.c.obj" "gcc" "CMakeFiles/Template.elf.dir/Core/Src/sysmem.c.obj.d"
   "D:/code/clion_code/Template/Core/Src/system_stm32f4xx.c" "CMakeFiles/Template.elf.dir/Core/Src/system_stm32f4xx.c.obj" "gcc" "CMakeFiles/Template.elf.dir/Core/Src/system_stm32f4xx.c.obj.d"
+  "D:/code/clion_code/Template/Core/Src/tim.c" "CMakeFiles/Template.elf.dir/Core/Src/tim.c.obj" "gcc" "CMakeFiles/Template.elf.dir/Core/Src/tim.c.obj.d"
   "D:/code/clion_code/Template/Core/Src/usart.c" "CMakeFiles/Template.elf.dir/Core/Src/usart.c.obj" "gcc" "CMakeFiles/Template.elf.dir/Core/Src/usart.c.obj.d"
   "D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" "CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" "gcc" "CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj.d"
   "D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c" "CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj" "gcc" "CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj.d"
@@ -65,7 +67,9 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c" "CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj" "gcc" "CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj.d"
   "D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c" "CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj" "gcc" "CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj.d"
   "D:/code/clion_code/Template/LCD/lcd.c" "CMakeFiles/Template.elf.dir/LCD/lcd.c.obj" "gcc" "CMakeFiles/Template.elf.dir/LCD/lcd.c.obj.d"
+  "D:/code/clion_code/Template/Myapp/Src/FFT_Draw.c" "CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj" "gcc" "CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj.d"
   "D:/code/clion_code/Template/Myapp/Src/delay.c" "CMakeFiles/Template.elf.dir/Myapp/Src/delay.c.obj" "gcc" "CMakeFiles/Template.elf.dir/Myapp/Src/delay.c.obj.d"
+  "D:/code/clion_code/Template/Myapp/Src/myusart.c" "CMakeFiles/Template.elf.dir/Myapp/Src/myusart.c.obj" "gcc" "CMakeFiles/Template.elf.dir/Myapp/Src/myusart.c.obj.d"
   "D:/code/clion_code/Template/Myapp/Src/scheduler.c" "CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj" "gcc" "CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj.d"
   "D:/code/clion_code/Template/Myapp/Src/sys.c" "CMakeFiles/Template.elf.dir/Myapp/Src/sys.c.obj" "gcc" "CMakeFiles/Template.elf.dir/Myapp/Src/sys.c.obj.d"
   "D:/code/clion_code/Template/Myapp/Src/usart.c" "CMakeFiles/Template.elf.dir/Myapp/Src/usart.c.obj" "gcc" "CMakeFiles/Template.elf.dir/Myapp/Src/usart.c.obj.d"

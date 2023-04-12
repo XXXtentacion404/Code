@@ -9,6 +9,7 @@
     <file url="file://$PROJECT_DIR$/Myapp/APP/Encode/encode.c" charset="GBK" />
     <file url="file://$PROJECT_DIR$/Myapp/Inc/All_head.h" charset="GBK" />
     <file url="file://$PROJECT_DIR$/Myapp/Inc/delay.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Myapp/Inc/usart.h" charset="GBK" />
     <file url="file://$PROJECT_DIR$/Myapp/SYSTEM/delay/delay.c" charset="GBK" />
     <file url="file://$PROJECT_DIR$/Myapp/SYSTEM/delay/delay.h" charset="GBK" />
     <file url="file://$PROJECT_DIR$/Myapp/SYSTEM/sys/sys.c" charset="GBK" />

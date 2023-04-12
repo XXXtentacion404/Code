@@ -41,6 +41,8 @@ CMakeFiles/Template.elf.dir/Myapp/Src/vofa+.c.obj: \
  D:\code\clion_code\Template\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_ll_fsmc.h \
  D:\code\clion_code\Template\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr.h \
  D:\code\clion_code\Template\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr_ex.h \
+ D:\code\clion_code\Template\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim.h \
+ D:\code\clion_code\Template\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim_ex.h \
  D:\code\clion_code\Template\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_uart.h \
  D:\code\clion_code\Template\Myapp\Inc/All_head.h \
  d:\laboratory\clion\gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\stdio.h \
@@ -74,7 +76,16 @@ CMakeFiles/Template.elf.dir/Myapp/Src/vofa+.c.obj: \
  d:\laboratory\clion\gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_locale.h \
  d:\laboratory\clion\gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\strings.h \
  d:\laboratory\clion\gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\string.h \
+ D:\code\clion_code\Template\Myapp\Inc/scheduler.h \
+ D:\code\clion_code\Template\Core\Inc/adc.h \
  D:\code\clion_code\Template\Myapp\Inc/usart.h \
  D:\code\clion_code\Template\Myapp\Inc/sys.h \
  D:\code\clion_code\Template\Myapp\Inc/vofa+.h \
+ D:\code\clion_code\Template\LCD/lcd.h \
+ D:\code\clion_code\Template\LCD/sys.h \
+ D:\code\clion_code\Template\Myapp\Inc/arm_math.h \
+ d:\laboratory\clion\gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\math.h \
+ D:\code\clion_code\Template\Myapp\Inc/arm_const_structs.h \
+ D:\code\clion_code\Template\Myapp\Inc/arm_common_tables.h \
+ D:\code\clion_code\Template\Myapp\Inc/FFT_Draw.h \
  D:\code\clion_code\Template\Core\Inc/usart.h

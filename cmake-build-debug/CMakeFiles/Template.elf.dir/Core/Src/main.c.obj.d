@@ -39,10 +39,13 @@ CMakeFiles/Template.elf.dir/Core/Src/main.c.obj: \
  D:\code\clion_code\Template\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_ll_fsmc.h \
  D:\code\clion_code\Template\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr.h \
  D:\code\clion_code\Template\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr_ex.h \
+ D:\code\clion_code\Template\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim.h \
+ D:\code\clion_code\Template\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim_ex.h \
  D:\code\clion_code\Template\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_uart.h \
  D:\code\clion_code\Template\Core\Inc/adc.h \
  D:\code\clion_code\Template\Core\Inc/main.h \
  D:\code\clion_code\Template\Core\Inc/dma.h \
+ D:\code\clion_code\Template\Core\Inc/tim.h \
  D:\code\clion_code\Template\Core\Inc/usart.h \
  D:\code\clion_code\Template\Core\Inc/gpio.h \
  D:\code\clion_code\Template\Core\Inc/fsmc.h \

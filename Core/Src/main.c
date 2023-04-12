@@ -20,6 +20,7 @@
 #include "main.h"
 #include "adc.h"
 #include "dma.h"
+#include "tim.h"
 #include "usart.h"
 #include "gpio.h"
 #include "fsmc.h"
@@ -30,6 +31,7 @@
 #include "lcd.h"
 #include "vofa+.h"
 #include "scheduler.h"
+#define FFT_LENGTH 1024
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -54,6 +56,7 @@ uint8_t _write(int file, char *ptr,int len)
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
+uint16_t adcBuff[1024];
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -110,10 +113,13 @@ int main(void)
   MX_ADC1_Init();
   MX_FSMC_Init();
   MX_USART1_UART_Init();
+  MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
     lcd_init();
     lcd_display_dir(1);
     display();
+    HAL_TIM_Base_Start(&htim2);
+
   /* USER CODE END 2 */
 
   /* Infinite loop */

@@ -368,6 +368,30 @@ Core/Src/system_stm32f4xx.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Template.elf.dir\build.make CMakeFiles/Template.elf.dir/Core/Src/system_stm32f4xx.c.s
 .PHONY : Core/Src/system_stm32f4xx.c.s
 
+Core/Src/tim.obj: Core/Src/tim.c.obj
+.PHONY : Core/Src/tim.obj
+
+# target to build an object file
+Core/Src/tim.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Template.elf.dir\build.make CMakeFiles/Template.elf.dir/Core/Src/tim.c.obj
+.PHONY : Core/Src/tim.c.obj
+
+Core/Src/tim.i: Core/Src/tim.c.i
+.PHONY : Core/Src/tim.i
+
+# target to preprocess a source file
+Core/Src/tim.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Template.elf.dir\build.make CMakeFiles/Template.elf.dir/Core/Src/tim.c.i
+.PHONY : Core/Src/tim.c.i
+
+Core/Src/tim.s: Core/Src/tim.c.s
+.PHONY : Core/Src/tim.s
+
+# target to generate assembly for a file
+Core/Src/tim.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Template.elf.dir\build.make CMakeFiles/Template.elf.dir/Core/Src/tim.c.s
+.PHONY : Core/Src/tim.c.s
+
 Core/Src/usart.obj: Core/Src/usart.c.obj
 .PHONY : Core/Src/usart.obj
 
@@ -928,6 +952,30 @@ LCD/lcd.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Template.elf.dir\build.make CMakeFiles/Template.elf.dir/LCD/lcd.c.s
 .PHONY : LCD/lcd.c.s
 
+Myapp/Src/FFT_Draw.obj: Myapp/Src/FFT_Draw.c.obj
+.PHONY : Myapp/Src/FFT_Draw.obj
+
+# target to build an object file
+Myapp/Src/FFT_Draw.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Template.elf.dir\build.make CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
+.PHONY : Myapp/Src/FFT_Draw.c.obj
+
+Myapp/Src/FFT_Draw.i: Myapp/Src/FFT_Draw.c.i
+.PHONY : Myapp/Src/FFT_Draw.i
+
+# target to preprocess a source file
+Myapp/Src/FFT_Draw.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Template.elf.dir\build.make CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.i
+.PHONY : Myapp/Src/FFT_Draw.c.i
+
+Myapp/Src/FFT_Draw.s: Myapp/Src/FFT_Draw.c.s
+.PHONY : Myapp/Src/FFT_Draw.s
+
+# target to generate assembly for a file
+Myapp/Src/FFT_Draw.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Template.elf.dir\build.make CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.s
+.PHONY : Myapp/Src/FFT_Draw.c.s
+
 Myapp/Src/delay.obj: Myapp/Src/delay.c.obj
 .PHONY : Myapp/Src/delay.obj
 
@@ -951,6 +999,30 @@ Myapp/Src/delay.s: Myapp/Src/delay.c.s
 Myapp/Src/delay.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Template.elf.dir\build.make CMakeFiles/Template.elf.dir/Myapp/Src/delay.c.s
 .PHONY : Myapp/Src/delay.c.s
+
+Myapp/Src/myusart.obj: Myapp/Src/myusart.c.obj
+.PHONY : Myapp/Src/myusart.obj
+
+# target to build an object file
+Myapp/Src/myusart.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Template.elf.dir\build.make CMakeFiles/Template.elf.dir/Myapp/Src/myusart.c.obj
+.PHONY : Myapp/Src/myusart.c.obj
+
+Myapp/Src/myusart.i: Myapp/Src/myusart.c.i
+.PHONY : Myapp/Src/myusart.i
+
+# target to preprocess a source file
+Myapp/Src/myusart.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Template.elf.dir\build.make CMakeFiles/Template.elf.dir/Myapp/Src/myusart.c.i
+.PHONY : Myapp/Src/myusart.c.i
+
+Myapp/Src/myusart.s: Myapp/Src/myusart.c.s
+.PHONY : Myapp/Src/myusart.s
+
+# target to generate assembly for a file
+Myapp/Src/myusart.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Template.elf.dir\build.make CMakeFiles/Template.elf.dir/Myapp/Src/myusart.c.s
+.PHONY : Myapp/Src/myusart.c.s
 
 Myapp/Src/scheduler.obj: Myapp/Src/scheduler.c.obj
 .PHONY : Myapp/Src/scheduler.obj
@@ -1087,6 +1159,9 @@ help:
 	@echo ... Core/Src/system_stm32f4xx.obj
 	@echo ... Core/Src/system_stm32f4xx.i
 	@echo ... Core/Src/system_stm32f4xx.s
+	@echo ... Core/Src/tim.obj
+	@echo ... Core/Src/tim.i
+	@echo ... Core/Src/tim.s
 	@echo ... Core/Src/usart.obj
 	@echo ... Core/Src/usart.i
 	@echo ... Core/Src/usart.s
@@ -1157,9 +1232,15 @@ help:
 	@echo ... LCD/lcd.obj
 	@echo ... LCD/lcd.i
 	@echo ... LCD/lcd.s
+	@echo ... Myapp/Src/FFT_Draw.obj
+	@echo ... Myapp/Src/FFT_Draw.i
+	@echo ... Myapp/Src/FFT_Draw.s
 	@echo ... Myapp/Src/delay.obj
 	@echo ... Myapp/Src/delay.i
 	@echo ... Myapp/Src/delay.s
+	@echo ... Myapp/Src/myusart.obj
+	@echo ... Myapp/Src/myusart.i
+	@echo ... Myapp/Src/myusart.s
 	@echo ... Myapp/Src/scheduler.obj
 	@echo ... Myapp/Src/scheduler.i
 	@echo ... Myapp/Src/scheduler.s

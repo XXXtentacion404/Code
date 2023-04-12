@@ -5,16 +5,17 @@
 #include "stdio.h"
 #include "stdlib.h"
 #include "string.h"
-
-
+#include "scheduler.h"
+#include "stdio.h"
+#include "adc.h"
 #include "usart.h"
 #include "vofa+.h"
+#include "lcd.h"
+#include "arm_math.h"
+#include "arm_const_structs.h"
+#include "FFT_Draw.h"
+#define FFT_LENGTH 1024
 
-extern uint8_t openmv_rxbuffer[64];
-extern uint8_t usart1_receive[64];
-extern uint8_t imu901RxBuffer[55];
-extern uint8_t bluteooth_receivr_Data[7];
-extern uint8_t Uart4_aRxBuffer;		//Ω” ’÷–∂œª∫≥Â
 
 #endif
 

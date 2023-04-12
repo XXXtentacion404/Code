@@ -1258,26 +1258,19 @@ void lcd_show_string(uint16_t x, uint16_t y, uint16_t width, uint16_t height, ui
         p++;
     }
 }
-void display(void)   {
-    uint16_t t;
-    lcd_fill(0,0,800,360,WHITE);
-    lcd_draw_line(0,20,800,20,BLUE);
-    lcd_draw_line(0,21,800,21,BLUE);
-    lcd_draw_line(0,20,800,20,BLUE);
-    lcd_show_string(0,0,40,20,24,"3.3V",BLUE);
-    lcd_show_string(0,360,40,20,24,"0 V",BLUE);
-    for(t  = 22;t<360;t=t+20){
-        lcd_draw_line(0, t, 800, t,YELLOW);
-        lcd_draw_line(0, t+1, 800, t+1,YELLOW);
-        lcd_draw_line(0,t+20,800,t+20,YELLOW);
-        lcd_draw_line(0,t+21,800,t+21,YELLOW);
-        lcd_draw_line(0,350,800,350,BLUE);
-        lcd_draw_line(0,351,800,351,BLUE);
-    }
-    for(t  = 40;t<800;t=t+20){
-        lcd_draw_line(t,0, t,360,YELLOW );
-        lcd_draw_line(t+1,0, t+1,360,YELLOW );
-    }
+void display(void) {
+    lcd_show_string(5, 8, 200, 24, 24, "OSC-DWY", GREEN);
+    lcd_show_string(45, 28, 200, 16, 16, "mV/div", GRAY);
+    lcd_show_string(5, 48, 200, 16, 16, "max(mv):", GRAY);
+    lcd_show_string(5, 68, 200, 16, 16, "min(mv):", GRAY);
+    lcd_show_string(5, 88, 200, 16, 16, "vpp(mv):", GRAY);
+    lcd_show_string(5, 108, 200, 16, 16, "f(Hz):", GRAY);
+    lcd_show_string(5, 128, 200, 16, 16, "boxing:", GRAY);  //采样率
+    lcd_show_string(5, 148, 200, 16, 16, "Hz", GRAY);
+    lcd_show_string(100, 13, 200, 16, 16, "IN:PB1", BRRED);
+    lcd_show_xnum(5, 28, 12345, 5, 16, 1, BLUE);
+    lcd_draw_line(287, 0, 287, 230, RED);
+    lcd_draw_line(287, 230, 800, 230, RED);
 }
 /**
  * @brief       画粗线
@@ -1353,6 +1346,7 @@ void lcd_draw_bline(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, uint8_t 
         }
     }
 }
+
 
 
 

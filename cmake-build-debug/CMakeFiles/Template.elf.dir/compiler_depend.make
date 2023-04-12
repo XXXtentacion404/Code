@@ -42,6 +42,8 @@ CMakeFiles/Template.elf.dir/Core/Src/adc.c.obj: D:/code/clion_code/Template/Core
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Template.elf.dir/Core/Src/dma.c.obj: D:/code/clion_code/Template/Core/Src/dma.c \
@@ -85,6 +87,8 @@ CMakeFiles/Template.elf.dir/Core/Src/dma.c.obj: D:/code/clion_code/Template/Core
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Template.elf.dir/Core/Src/fsmc.c.obj: D:/code/clion_code/Template/Core/Src/fsmc.c \
@@ -128,6 +132,8 @@ CMakeFiles/Template.elf.dir/Core/Src/fsmc.c.obj: D:/code/clion_code/Template/Cor
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Template.elf.dir/Core/Src/gpio.c.obj: D:/code/clion_code/Template/Core/Src/gpio.c \
@@ -171,6 +177,8 @@ CMakeFiles/Template.elf.dir/Core/Src/gpio.c.obj: D:/code/clion_code/Template/Cor
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Template.elf.dir/Core/Src/main.c.obj: D:/code/clion_code/Template/Core/Src/main.c \
@@ -213,10 +221,13 @@ CMakeFiles/Template.elf.dir/Core/Src/main.c.obj: D:/code/clion_code/Template/Cor
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/code/clion_code/Template/Core/Inc/adc.h \
   D:/code/clion_code/Template/Core/Inc/main.h \
   D:/code/clion_code/Template/Core/Inc/dma.h \
+  D:/code/clion_code/Template/Core/Inc/tim.h \
   D:/code/clion_code/Template/Core/Inc/usart.h \
   D:/code/clion_code/Template/Core/Inc/gpio.h \
   D:/code/clion_code/Template/Core/Inc/fsmc.h \
@@ -292,6 +303,8 @@ CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: D:/code/clion_code
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj: D:/code/clion_code/Template/Core/Src/stm32f4xx_it.c \
@@ -334,6 +347,8 @@ CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj: D:/code/clion_code/Temp
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/code/clion_code/Template/Core/Inc/stm32f4xx_it.h
 
@@ -441,6 +456,53 @@ CMakeFiles/Template.elf.dir/Core/Src/system_stm32f4xx.c.obj: D:/code/clion_code/
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+
+CMakeFiles/Template.elf.dir/Core/Src/tim.c.obj: D:/code/clion_code/Template/Core/Src/tim.c \
+  D:/code/clion_code/Template/Core/Inc/tim.h \
+  D:/code/clion_code/Template/Core/Inc/main.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+  D:/code/clion_code/Template/Core/Inc/stm32f4xx_hal_conf.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+  D:/code/clion_code/Template/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+  D:/code/clion_code/Template/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
+  D:/code/clion_code/Template/Drivers/CMSIS/Include/core_cm4.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdint.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_default_types.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/features.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_newlib_version.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_intsup.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_stdint.h \
+  D:/code/clion_code/Template/Drivers/CMSIS/Include/cmsis_version.h \
+  D:/code/clion_code/Template/Drivers/CMSIS/Include/cmsis_compiler.h \
+  D:/code/clion_code/Template/Drivers/CMSIS/Include/cmsis_gcc.h \
+  D:/code/clion_code/Template/Drivers/CMSIS/Include/mpu_armv7.h \
+  D:/code/clion_code/Template/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Template.elf.dir/Core/Src/usart.c.obj: D:/code/clion_code/Template/Core/Src/usart.c \
@@ -484,6 +546,8 @@ CMakeFiles/Template.elf.dir/Core/Src/usart.c.obj: D:/code/clion_code/Template/Co
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c \
@@ -525,6 +589,8 @@ CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c \
@@ -566,6 +632,8 @@ CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c \
@@ -607,6 +675,8 @@ CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_e
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c \
@@ -648,6 +718,8 @@ CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_corte
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c \
@@ -689,6 +761,8 @@ CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c \
@@ -730,6 +804,8 @@ CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_e
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c \
@@ -771,6 +847,8 @@ CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c \
@@ -812,6 +890,8 @@ CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c \
@@ -853,6 +933,8 @@ CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c \
@@ -894,6 +976,8 @@ CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c \
@@ -935,6 +1019,8 @@ CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c \
@@ -976,6 +1062,8 @@ CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c \
@@ -1017,6 +1105,8 @@ CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_e
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c \
@@ -1058,6 +1148,8 @@ CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c \
@@ -1099,6 +1191,8 @@ CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_e
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj: D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c \
@@ -1140,6 +1234,8 @@ CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c \
@@ -1181,6 +1277,8 @@ CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c \
@@ -1222,6 +1320,8 @@ CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_e
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c \
@@ -1263,6 +1363,8 @@ CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj: D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c
@@ -1306,6 +1408,8 @@ CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj: D:/code/clion_code/Template/LCD/lcd.c \
@@ -1362,11 +1466,102 @@ CMakeFiles/Template.elf.dir/LCD/lcd.c.obj: D:/code/clion_code/Template/LCD/lcd.c
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/code/clion_code/Template/LCD/lcdfont.h \
   D:/code/clion_code/Template/LCD/lcd_ex.c \
   D:/code/clion_code/Template/Myapp/Inc/delay.h \
   D:/code/clion_code/Template/Myapp/Inc/sys.h
+
+CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj: D:/code/clion_code/Template/Myapp/Src/FFT_Draw.c \
+  D:/code/clion_code/Template/Myapp/Inc/All_head.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdio.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_ansi.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/newlib.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_newlib_version.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/config.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/ieeefp.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/features.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/cdefs.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_default_types.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/reent.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_ansi.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_types.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_types.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/lock.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/types.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_stdint.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/endian.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_endian.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/select.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_sigset.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_timeval.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/timespec.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_timespec.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_pthreadtypes.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/sched.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/types.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/stdio.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdlib.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/stdlib.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/alloca.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/string.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_locale.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/strings.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/string.h \
+  D:/code/clion_code/Template/Myapp/Inc/scheduler.h \
+  D:/code/clion_code/Template/Core/Inc/gpio.h \
+  D:/code/clion_code/Template/Core/Inc/main.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+  D:/code/clion_code/Template/Core/Inc/stm32f4xx_hal_conf.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+  D:/code/clion_code/Template/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+  D:/code/clion_code/Template/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
+  D:/code/clion_code/Template/Drivers/CMSIS/Include/core_cm4.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdint.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_intsup.h \
+  D:/code/clion_code/Template/Drivers/CMSIS/Include/cmsis_version.h \
+  D:/code/clion_code/Template/Drivers/CMSIS/Include/cmsis_compiler.h \
+  D:/code/clion_code/Template/Drivers/CMSIS/Include/cmsis_gcc.h \
+  D:/code/clion_code/Template/Drivers/CMSIS/Include/mpu_armv7.h \
+  D:/code/clion_code/Template/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
+  D:/code/clion_code/Template/Core/Inc/adc.h \
+  D:/code/clion_code/Template/Myapp/Inc/usart.h \
+  D:/code/clion_code/Template/Myapp/Inc/sys.h \
+  D:/code/clion_code/Template/Myapp/Inc/vofa+.h \
+  D:/code/clion_code/Template/LCD/lcd.h \
+  D:/code/clion_code/Template/LCD/sys.h \
+  D:/code/clion_code/Template/Myapp/Inc/arm_math.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/math.h \
+  D:/code/clion_code/Template/Myapp/Inc/arm_const_structs.h \
+  D:/code/clion_code/Template/Myapp/Inc/arm_common_tables.h \
+  D:/code/clion_code/Template/Myapp/Inc/FFT_Draw.h
 
 CMakeFiles/Template.elf.dir/Myapp/Src/delay.c.obj: D:/code/clion_code/Template/Myapp/Src/delay.c \
   D:/code/clion_code/Template/Myapp/Inc/sys.h \
@@ -1408,13 +1603,33 @@ CMakeFiles/Template.elf.dir/Myapp/Src/delay.c.obj: D:/code/clion_code/Template/M
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/code/clion_code/Template/Myapp/Inc/delay.h \
   D:/code/clion_code/Template/Myapp/Inc/sys.h
 
-CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj: D:/code/clion_code/Template/Myapp/Src/scheduler.c \
-  D:/code/clion_code/Template/Myapp/Inc/scheduler.h \
-  D:/code/clion_code/Template/Core/Inc/gpio.h \
+CMakeFiles/Template.elf.dir/Myapp/Src/myusart.c.obj: D:/code/clion_code/Template/Myapp/Src/myusart.c \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/string.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_ansi.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/newlib.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_newlib_version.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/config.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/ieeefp.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/features.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/reent.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_ansi.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_types.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_types.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_default_types.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/lock.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/cdefs.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_locale.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/strings.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/string.h \
+  D:/code/clion_code/Template/Myapp/Inc/myDmaUart.h \
+  D:/code/clion_code/Template/Core/Inc/usart.h \
   D:/code/clion_code/Template/Core/Inc/main.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
   D:/code/clion_code/Template/Core/Inc/stm32f4xx_hal_conf.h \
@@ -1425,9 +1640,6 @@ CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj: D:/code/clion_code/Templa
   D:/code/clion_code/Template/Drivers/CMSIS/Include/core_cm4.h \
   D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdint.h \
-  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/features.h \
-  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_newlib_version.h \
   D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_intsup.h \
   D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_stdint.h \
   D:/code/clion_code/Template/Drivers/CMSIS/Include/cmsis_version.h \
@@ -1436,7 +1648,6 @@ CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj: D:/code/clion_code/Templa
   D:/code/clion_code/Template/Drivers/CMSIS/Include/mpu_armv7.h \
   D:/code/clion_code/Template/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
@@ -1454,19 +1665,12 @@ CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj: D:/code/clion_code/Templa
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
+  D:/code/clion_code/Template/Myapp/Inc/UART.h \
   D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdio.h \
-  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_ansi.h \
-  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/newlib.h \
-  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/config.h \
-  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/ieeefp.h \
-  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/cdefs.h \
   D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
-  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/reent.h \
-  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_ansi.h \
-  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_types.h \
-  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_types.h \
-  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/lock.h \
   D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/types.h \
   D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/endian.h \
   D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_endian.h \
@@ -1479,13 +1683,97 @@ CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj: D:/code/clion_code/Templa
   D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/sched.h \
   D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/types.h \
   D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/stdio.h \
-  D:/code/clion_code/Template/Core/Inc/adc.h \
-  D:/code/clion_code/Template/Myapp/Inc/vofa+.h \
-  D:/code/clion_code/Template/LCD/lcd.h \
+  D:/code/clion_code/Template/Myapp/Inc/usart.h \
+  D:/code/clion_code/Template/Myapp/Inc/sys.h
+
+CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj: D:/code/clion_code/Template/Myapp/Src/scheduler.c \
+  D:/code/clion_code/Template/Myapp/Inc/All_head.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdio.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_ansi.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/newlib.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_newlib_version.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/config.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/ieeefp.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/features.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/cdefs.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_default_types.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/reent.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_ansi.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_types.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_types.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/lock.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/types.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_stdint.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/endian.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_endian.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/select.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_sigset.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_timeval.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/timespec.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_timespec.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_pthreadtypes.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/sched.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/types.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/stdio.h \
   D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdlib.h \
   D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/stdlib.h \
   D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/alloca.h \
-  D:/code/clion_code/Template/LCD/sys.h
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/string.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_locale.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/strings.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/string.h \
+  D:/code/clion_code/Template/Myapp/Inc/scheduler.h \
+  D:/code/clion_code/Template/Core/Inc/gpio.h \
+  D:/code/clion_code/Template/Core/Inc/main.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+  D:/code/clion_code/Template/Core/Inc/stm32f4xx_hal_conf.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+  D:/code/clion_code/Template/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+  D:/code/clion_code/Template/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
+  D:/code/clion_code/Template/Drivers/CMSIS/Include/core_cm4.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdint.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_intsup.h \
+  D:/code/clion_code/Template/Drivers/CMSIS/Include/cmsis_version.h \
+  D:/code/clion_code/Template/Drivers/CMSIS/Include/cmsis_compiler.h \
+  D:/code/clion_code/Template/Drivers/CMSIS/Include/cmsis_gcc.h \
+  D:/code/clion_code/Template/Drivers/CMSIS/Include/mpu_armv7.h \
+  D:/code/clion_code/Template/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
+  D:/code/clion_code/Template/Core/Inc/adc.h \
+  D:/code/clion_code/Template/Myapp/Inc/usart.h \
+  D:/code/clion_code/Template/Myapp/Inc/sys.h \
+  D:/code/clion_code/Template/Myapp/Inc/vofa+.h \
+  D:/code/clion_code/Template/LCD/lcd.h \
+  D:/code/clion_code/Template/LCD/sys.h \
+  D:/code/clion_code/Template/Myapp/Inc/arm_math.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/math.h \
+  D:/code/clion_code/Template/Myapp/Inc/arm_const_structs.h \
+  D:/code/clion_code/Template/Myapp/Inc/arm_common_tables.h \
+  D:/code/clion_code/Template/Myapp/Inc/FFT_Draw.h
 
 CMakeFiles/Template.elf.dir/Myapp/Src/sys.c.obj: D:/code/clion_code/Template/Myapp/Src/sys.c \
   D:/code/clion_code/Template/Myapp/Inc/sys.h \
@@ -1527,6 +1815,8 @@ CMakeFiles/Template.elf.dir/Myapp/Src/sys.c.obj: D:/code/clion_code/Template/Mya
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Template.elf.dir/Myapp/Src/usart.c.obj: D:/code/clion_code/Template/Myapp/Src/usart.c \
@@ -1569,6 +1859,8 @@ CMakeFiles/Template.elf.dir/Myapp/Src/usart.c.obj: D:/code/clion_code/Template/M
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/code/clion_code/Template/Core/Inc/usart.h \
   D:/code/clion_code/Template/Core/Inc/main.h
@@ -1615,6 +1907,8 @@ CMakeFiles/Template.elf.dir/Myapp/Src/vofa+.c.obj: D:/code/clion_code/Template/M
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   D:/code/clion_code/Template/Myapp/Inc/All_head.h \
   D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdio.h \
@@ -1648,9 +1942,18 @@ CMakeFiles/Template.elf.dir/Myapp/Src/vofa+.c.obj: D:/code/clion_code/Template/M
   D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_locale.h \
   D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/strings.h \
   D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/string.h \
+  D:/code/clion_code/Template/Myapp/Inc/scheduler.h \
+  D:/code/clion_code/Template/Core/Inc/adc.h \
   D:/code/clion_code/Template/Myapp/Inc/usart.h \
   D:/code/clion_code/Template/Myapp/Inc/sys.h \
   D:/code/clion_code/Template/Myapp/Inc/vofa+.h \
+  D:/code/clion_code/Template/LCD/lcd.h \
+  D:/code/clion_code/Template/LCD/sys.h \
+  D:/code/clion_code/Template/Myapp/Inc/arm_math.h \
+  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/math.h \
+  D:/code/clion_code/Template/Myapp/Inc/arm_const_structs.h \
+  D:/code/clion_code/Template/Myapp/Inc/arm_common_tables.h \
+  D:/code/clion_code/Template/Myapp/Inc/FFT_Draw.h \
   D:/code/clion_code/Template/Core/Inc/usart.h
 
 
@@ -1681,6 +1984,8 @@ D:/code/clion_code/Template/Core/Inc/main.h:
 D:/code/clion_code/Template/Core/Src/usart.c:
 
 D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:
+
+D:/code/clion_code/Template/Core/Inc/tim.h:
 
 D:/code/clion_code/Template/Core/Inc/dma.h:
 
@@ -1730,13 +2035,13 @@ D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys
 
 D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h:
 
-D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_endian.h:
-
 D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h:
 
 D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/reent.h:
 
 D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h:
+
+D:/code/clion_code/Template/Myapp/Inc/UART.h:
 
 D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:
 
@@ -1747,6 +2052,8 @@ D:/code/clion_code/Template/Core/Src/gpio.c:
 D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:
 
 D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h:
+
+D:/code/clion_code/Template/Core/Src/tim.c:
 
 D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h:
 
@@ -1776,6 +2083,10 @@ D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.
 
 D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h:
 
+D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:
+
+D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h:
+
 D:/code/clion_code/Template/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:
 
 D:/code/clion_code/Template/Core/Inc/gpio.h:
@@ -1796,9 +2107,11 @@ D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys
 
 D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/lock.h:
 
+D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/types.h:
+
 D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/endian.h:
 
-D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/types.h:
+D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_endian.h:
 
 D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/select.h:
 
@@ -1910,14 +2223,30 @@ D:/code/clion_code/Template/LCD/lcdfont.h:
 
 D:/code/clion_code/Template/Myapp/Inc/delay.h:
 
-D:/code/clion_code/Template/Myapp/Src/sys.c:
-
-D:/code/clion_code/Template/Myapp/Src/usart.c:
-
-D:/code/clion_code/Template/Myapp/Src/vofa+.c:
+D:/code/clion_code/Template/Myapp/Src/FFT_Draw.c:
 
 D:/code/clion_code/Template/Myapp/Inc/All_head.h:
 
 D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/strings.h:
 
 D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/string.h:
+
+D:/code/clion_code/Template/Myapp/Inc/arm_math.h:
+
+D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/math.h:
+
+D:/code/clion_code/Template/Myapp/Inc/arm_const_structs.h:
+
+D:/code/clion_code/Template/Myapp/Inc/arm_common_tables.h:
+
+D:/code/clion_code/Template/Myapp/Inc/FFT_Draw.h:
+
+D:/code/clion_code/Template/Myapp/Src/myusart.c:
+
+D:/code/clion_code/Template/Myapp/Inc/myDmaUart.h:
+
+D:/code/clion_code/Template/Myapp/Src/sys.c:
+
+D:/code/clion_code/Template/Myapp/Src/usart.c:
+
+D:/code/clion_code/Template/Myapp/Src/vofa+.c:
