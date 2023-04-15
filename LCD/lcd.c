@@ -1267,7 +1267,7 @@ void display(void) {
     lcd_show_string(5, 108, 200, 16, 16, "f(Hz):", GRAY);
     lcd_show_string(5, 128, 200, 16, 16, "boxing:", GRAY);  //²ÉÑùÂÊ
     lcd_show_string(5, 148, 200, 16, 16, "Hz", GRAY);
-    lcd_show_string(100, 13, 200, 16, 16, "IN:PB1", BRRED);
+    lcd_show_string(100, 13, 200, 16, 16, "IN:PA7", BRRED);
     lcd_show_xnum(5, 28, 12345, 5, 16, 1, BLUE);
     lcd_draw_line(287, 0, 287, 230, RED);
     lcd_draw_line(287, 230, 800, 230, RED);

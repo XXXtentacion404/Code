@@ -117,6 +117,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
     lcd_init();
     lcd_display_dir(1);
+    HAL_Delay(500);
     display();
     HAL_TIM_Base_Start(&htim2);
 
