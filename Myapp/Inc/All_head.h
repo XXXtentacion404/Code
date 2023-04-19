@@ -15,7 +15,7 @@
 #include "arm_const_structs.h"
 #include "FFT_Draw.h"
 #define FFT_LENGTH 1024
-
+#include "tim.h"
 
 #endif
 

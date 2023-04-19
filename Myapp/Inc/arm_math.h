@@ -6939,7 +6939,7 @@ void arm_rfft_fast_f32(
     /* Convert out to 1.15 format */
     return ((q15_t)(acc >> 36));
   }
-
+//void arm_cmplx_phase_f32(float32_t *pSrc, float32_t *pDst, uint32_t numSamples);
 
   /**
   * @brief  Q7 bilinear interpolation.

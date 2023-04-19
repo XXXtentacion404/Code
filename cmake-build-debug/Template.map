@@ -21,7 +21,7 @@ D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_common_tables.o
 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldf3.o)
                               CMakeFiles/Template.elf.dir/LCD/lcd.c.obj (__aeabi_dmul)
 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_mulsf3.o)
-                              CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj (__aeabi_fmul)
+                              CMakeFiles/Template.elf.dir/LCD/lcd.c.obj (__aeabi_fmul)
 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubdf3.o)
                               CMakeFiles/Template.elf.dir/LCD/lcd.c.obj (__aeabi_i2d)
 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldivdf3.o)
@@ -33,11 +33,13 @@ d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-e
 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_truncdfsf2.o)
                               CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj (__aeabi_d2f)
 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubsf3.o)
-                              CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj (__aeabi_fsub)
+                              CMakeFiles/Template.elf.dir/LCD/lcd.c.obj (__aeabi_fsub)
 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldivsf3.o)
                               CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj (__aeabi_fdiv)
 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_cmpsf2.o)
                               D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_max_f32.o) (__aeabi_fcmplt)
+d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_fixsfsi.o)
+                              CMakeFiles/Template.elf.dir/LCD/lcd.c.obj (__aeabi_f2iz)
 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_fixunssfsi.o)
                               CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj (__aeabi_f2uiz)
 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
@@ -282,7 +284,7 @@ Discarded input sections
  .data          0x00000000        0x0 CMakeFiles/Template.elf.dir/Core/Src/tim.c.obj
  .bss           0x00000000        0x0 CMakeFiles/Template.elf.dir/Core/Src/tim.c.obj
  .text.HAL_TIM_Base_MspDeInit
-                0x00000000       0x1c CMakeFiles/Template.elf.dir/Core/Src/tim.c.obj
+                0x00000000       0x48 CMakeFiles/Template.elf.dir/Core/Src/tim.c.obj
  .text          0x00000000        0x0 CMakeFiles/Template.elf.dir/Core/Src/usart.c.obj
  .data          0x00000000        0x0 CMakeFiles/Template.elf.dir/Core/Src/usart.c.obj
  .bss           0x00000000        0x0 CMakeFiles/Template.elf.dir/Core/Src/usart.c.obj
@@ -815,12 +817,6 @@ Discarded input sections
                 0x00000000       0x70 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.TIM_OC4_SetConfig
                 0x00000000       0x50 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .text.TIM_TI2_SetConfig
-                0x00000000       0x36 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .text.TIM_TI3_SetConfig
-                0x00000000       0x36 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .text.TIM_TI4_SetConfig
-                0x00000000       0x36 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.HAL_TIM_Base_MspInit
                 0x00000000        0x2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.HAL_TIM_Base_MspDeInit
@@ -849,8 +845,6 @@ Discarded input sections
                 0x00000000        0x2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.HAL_TIM_PWM_DeInit
                 0x00000000       0x5e CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .text.HAL_TIM_IC_MspInit
-                0x00000000        0x2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.HAL_TIM_IC_MspDeInit
                 0x00000000        0x2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.HAL_TIM_IC_DeInit
@@ -883,18 +877,12 @@ Discarded input sections
                 0x00000000       0x2a CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.HAL_TIM_ConfigTI1Input
                 0x00000000       0x10 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .text.HAL_TIM_ReadCapturedValue
-                0x00000000       0x32 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .text.HAL_TIM_PeriodElapsedCallback
-                0x00000000        0x2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.TIM_DMAPeriodElapsedCplt
                 0x00000000       0x16 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.HAL_TIM_PeriodElapsedHalfCpltCallback
                 0x00000000        0x2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.TIM_DMAPeriodElapsedHalfCplt
                 0x00000000        0xa CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .text.HAL_TIM_OC_DelayElapsedCallback
-                0x00000000        0x2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.HAL_TIM_IC_CaptureCallback
                 0x00000000        0x2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.TIM_DMACaptureCplt
@@ -903,18 +891,12 @@ Discarded input sections
                 0x00000000        0x2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.TIM_DMACaptureHalfCplt
                 0x00000000       0x3e CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .text.HAL_TIM_PWM_PulseFinishedCallback
-                0x00000000        0x2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.TIM_DMADelayPulseCplt
                 0x00000000       0x70 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.HAL_TIM_PWM_PulseFinishedHalfCpltCallback
                 0x00000000        0x2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.TIM_DMADelayPulseHalfCplt
                 0x00000000       0x3e CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .text.HAL_TIM_TriggerCallback
-                0x00000000        0x2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .text.HAL_TIM_IRQHandler
-                0x00000000      0x17a CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.TIM_DMATriggerCplt
                 0x00000000       0x16 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.HAL_TIM_TriggerHalfCpltCallback
@@ -947,8 +929,6 @@ Discarded input sections
                 0x00000000       0x58 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.HAL_TIM_PWM_Init
                 0x00000000       0x58 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .text.HAL_TIM_IC_Init
-                0x00000000       0x58 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.HAL_TIM_OnePulse_Init
                 0x00000000       0x5c CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.HAL_TIM_Encoder_Init
@@ -959,22 +939,12 @@ Discarded input sections
                 0x00000000       0x5e CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.HAL_TIM_PWM_ConfigChannel
                 0x00000000       0xdc CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .text.TIM_TI1_SetConfig
-                0x00000000       0x7c CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .text.HAL_TIM_IC_ConfigChannel
-                0x00000000       0xc4 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.HAL_TIM_OnePulse_ConfigChannel
                 0x00000000       0xfa CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.HAL_TIM_ConfigOCrefClear
                 0x00000000       0xfa CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .text.TIM_SlaveTimer_SetConfig
-                0x00000000       0xb8 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .text.HAL_TIM_SlaveConfigSynchro
-                0x00000000       0x52 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.HAL_TIM_SlaveConfigSynchro_IT
                 0x00000000       0x52 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .text.TIM_CCxChannelCmd
-                0x00000000       0x1e CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.HAL_TIM_OC_Start
                 0x00000000      0x104 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.HAL_TIM_OC_Stop
@@ -1003,8 +973,6 @@ Discarded input sections
                 0x00000000      0x130 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.HAL_TIM_IC_Stop
                 0x00000000       0x80 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .text.HAL_TIM_IC_Start_IT
-                0x00000000      0x174 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.HAL_TIM_IC_Stop_IT
                 0x00000000       0xd0 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.HAL_TIM_IC_Start_DMA
@@ -1102,16 +1070,12 @@ Discarded input sections
                 0x00000000       0x52 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
  .text.HAL_TIMEx_RemapConfig
                 0x00000000       0x20 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- .text.HAL_TIMEx_CommutCallback
-                0x00000000        0x2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
  .text.TIMEx_DMACommutationCplt
                 0x00000000       0x10 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
  .text.HAL_TIMEx_CommutHalfCpltCallback
                 0x00000000        0x2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
  .text.TIMEx_DMACommutationHalfCplt
                 0x00000000       0x10 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- .text.HAL_TIMEx_BreakCallback
-                0x00000000        0x2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
  .text.HAL_TIMEx_HallSensor_GetState
                 0x00000000        0x6 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
  .text.HAL_TIMEx_GetChannelNState
@@ -1277,6 +1241,8 @@ Discarded input sections
                 0x00000000       0xe2 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
  .text.lcd_show_num
                 0x00000000       0x9c CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+ .text.lcd_show_float
+                0x00000000       0xd4 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
  .data.g_point_color
                 0x00000000        0x4 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
  .text          0x00000000        0x0 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
@@ -1706,6 +1672,12 @@ Discarded input sections
  .bss           0x00000000        0x0 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldivsf3.o)
  .data          0x00000000        0x0 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_cmpsf2.o)
  .bss           0x00000000        0x0 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_cmpsf2.o)
+ .text          0x00000000       0x4c d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_fixsfsi.o)
+ .data          0x00000000        0x0 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_fixsfsi.o)
+ .bss           0x00000000        0x0 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_fixsfsi.o)
+ .debug_frame   0x00000000       0x24 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_fixsfsi.o)
+ .ARM.attributes
+                0x00000000       0x1e d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_fixsfsi.o)
  .data          0x00000000        0x0 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_fixunssfsi.o)
  .bss           0x00000000        0x0 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_fixunssfsi.o)
  .data          0x00000000        0x0 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
@@ -2428,7 +2400,7 @@ LOAD d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-n
                 0x08000000                g_pfnVectors
                 0x08000188                . = ALIGN (0x4)
 
-.text           0x08000188     0x8a28
+.text           0x08000188     0x92ec
                 0x08000188                . = ALIGN (0x4)
  *(.text)
  .text          0x08000188       0x40 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
@@ -2550,633 +2522,695 @@ LOAD d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-n
  .text.SystemClock_Config
                 0x0800184c       0xa8 CMakeFiles/Template.elf.dir/Core/Src/main.c.obj
                 0x0800184c                SystemClock_Config
- .text.main     0x080018f4       0x48 CMakeFiles/Template.elf.dir/Core/Src/main.c.obj
+ .text.main     0x080018f4       0x64 CMakeFiles/Template.elf.dir/Core/Src/main.c.obj
                 0x080018f4                main
  .text.HAL_MspInit
-                0x0800193c       0x38 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
-                0x0800193c                HAL_MspInit
+                0x08001958       0x38 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+                0x08001958                HAL_MspInit
  .text.NMI_Handler
-                0x08001974        0x2 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x08001974                NMI_Handler
+                0x08001990        0x2 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x08001990                NMI_Handler
  .text.HardFault_Handler
-                0x08001976        0x2 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x08001976                HardFault_Handler
+                0x08001992        0x2 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x08001992                HardFault_Handler
  .text.MemManage_Handler
-                0x08001978        0x2 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x08001978                MemManage_Handler
+                0x08001994        0x2 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x08001994                MemManage_Handler
  .text.BusFault_Handler
-                0x0800197a        0x2 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0800197a                BusFault_Handler
+                0x08001996        0x2 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x08001996                BusFault_Handler
  .text.UsageFault_Handler
-                0x0800197c        0x2 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0800197c                UsageFault_Handler
+                0x08001998        0x2 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x08001998                UsageFault_Handler
  .text.SVC_Handler
-                0x0800197e        0x2 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0800197e                SVC_Handler
+                0x0800199a        0x2 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x0800199a                SVC_Handler
  .text.DebugMon_Handler
-                0x08001980        0x2 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x08001980                DebugMon_Handler
+                0x0800199c        0x2 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x0800199c                DebugMon_Handler
  .text.PendSV_Handler
-                0x08001982        0x2 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x08001982                PendSV_Handler
+                0x0800199e        0x2 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x0800199e                PendSV_Handler
  .text.SysTick_Handler
-                0x08001984        0x8 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x08001984                SysTick_Handler
+                0x080019a0        0x8 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x080019a0                SysTick_Handler
  .text.USART1_IRQHandler
-                0x0800198c       0x10 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0800198c                USART1_IRQHandler
+                0x080019a8       0x10 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x080019a8                USART1_IRQHandler
+ .text.TIM8_CC_IRQHandler
+                0x080019b8       0x10 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x080019b8                TIM8_CC_IRQHandler
  .text.DMA2_Stream0_IRQHandler
-                0x0800199c       0x10 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0800199c                DMA2_Stream0_IRQHandler
+                0x080019c8       0x10 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x080019c8                DMA2_Stream0_IRQHandler
  .text.DMA2_Stream2_IRQHandler
-                0x080019ac       0x10 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x080019ac                DMA2_Stream2_IRQHandler
+                0x080019d8       0x10 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x080019d8                DMA2_Stream2_IRQHandler
  .text.DMA2_Stream7_IRQHandler
-                0x080019bc       0x10 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x080019bc                DMA2_Stream7_IRQHandler
+                0x080019e8       0x10 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x080019e8                DMA2_Stream7_IRQHandler
  .text.SystemInit
-                0x080019cc        0x2 CMakeFiles/Template.elf.dir/Core/Src/system_stm32f4xx.c.obj
-                0x080019cc                SystemInit
- *fill*         0x080019ce        0x2 
+                0x080019f8        0x2 CMakeFiles/Template.elf.dir/Core/Src/system_stm32f4xx.c.obj
+                0x080019f8                SystemInit
+ *fill*         0x080019fa        0x2 
  .text.MX_TIM2_Init
-                0x080019d0       0x70 CMakeFiles/Template.elf.dir/Core/Src/tim.c.obj
-                0x080019d0                MX_TIM2_Init
+                0x080019fc       0x70 CMakeFiles/Template.elf.dir/Core/Src/tim.c.obj
+                0x080019fc                MX_TIM2_Init
+ .text.MX_TIM8_Init
+                0x08001a6c       0xec CMakeFiles/Template.elf.dir/Core/Src/tim.c.obj
+                0x08001a6c                MX_TIM8_Init
  .text.HAL_TIM_Base_MspInit
-                0x08001a40       0x2c CMakeFiles/Template.elf.dir/Core/Src/tim.c.obj
-                0x08001a40                HAL_TIM_Base_MspInit
+                0x08001b58       0x9c CMakeFiles/Template.elf.dir/Core/Src/tim.c.obj
+                0x08001b58                HAL_TIM_Base_MspInit
  .text.MX_USART1_UART_Init
-                0x08001a6c       0x34 CMakeFiles/Template.elf.dir/Core/Src/usart.c.obj
-                0x08001a6c                MX_USART1_UART_Init
+                0x08001bf4       0x34 CMakeFiles/Template.elf.dir/Core/Src/usart.c.obj
+                0x08001bf4                MX_USART1_UART_Init
  .text.HAL_UART_MspInit
-                0x08001aa0      0x104 CMakeFiles/Template.elf.dir/Core/Src/usart.c.obj
-                0x08001aa0                HAL_UART_MspInit
+                0x08001c28      0x104 CMakeFiles/Template.elf.dir/Core/Src/usart.c.obj
+                0x08001c28                HAL_UART_MspInit
  .text.Reset_Handler
-                0x08001ba4       0x50 CMakeFiles/Template.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj
-                0x08001ba4                Reset_Handler
+                0x08001d2c       0x50 CMakeFiles/Template.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj
+                0x08001d2c                Reset_Handler
  .text.Default_Handler
-                0x08001bf4        0x2 CMakeFiles/Template.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj
-                0x08001bf4                RTC_Alarm_IRQHandler
-                0x08001bf4                HASH_RNG_IRQHandler
-                0x08001bf4                EXTI2_IRQHandler
-                0x08001bf4                TIM8_CC_IRQHandler
-                0x08001bf4                TIM1_CC_IRQHandler
-                0x08001bf4                DMA2_Stream5_IRQHandler
-                0x08001bf4                DMA1_Stream5_IRQHandler
-                0x08001bf4                PVD_IRQHandler
-                0x08001bf4                SDIO_IRQHandler
-                0x08001bf4                TAMP_STAMP_IRQHandler
-                0x08001bf4                CAN2_RX1_IRQHandler
-                0x08001bf4                EXTI3_IRQHandler
-                0x08001bf4                TIM8_TRG_COM_TIM14_IRQHandler
-                0x08001bf4                TIM1_UP_TIM10_IRQHandler
-                0x08001bf4                TIM8_UP_TIM13_IRQHandler
-                0x08001bf4                I2C3_ER_IRQHandler
-                0x08001bf4                EXTI0_IRQHandler
-                0x08001bf4                I2C2_EV_IRQHandler
-                0x08001bf4                DMA1_Stream2_IRQHandler
-                0x08001bf4                CAN1_RX0_IRQHandler
-                0x08001bf4                FPU_IRQHandler
-                0x08001bf4                OTG_HS_WKUP_IRQHandler
-                0x08001bf4                CAN2_SCE_IRQHandler
-                0x08001bf4                SPI1_IRQHandler
-                0x08001bf4                TIM6_DAC_IRQHandler
-                0x08001bf4                TIM1_BRK_TIM9_IRQHandler
-                0x08001bf4                DCMI_IRQHandler
-                0x08001bf4                CAN2_RX0_IRQHandler
-                0x08001bf4                DMA2_Stream3_IRQHandler
-                0x08001bf4                USART6_IRQHandler
-                0x08001bf4                USART3_IRQHandler
-                0x08001bf4                CAN1_RX1_IRQHandler
-                0x08001bf4                UART5_IRQHandler
-                0x08001bf4                TIM4_IRQHandler
-                0x08001bf4                I2C1_EV_IRQHandler
-                0x08001bf4                DMA1_Stream6_IRQHandler
-                0x08001bf4                DMA1_Stream1_IRQHandler
-                0x08001bf4                UART4_IRQHandler
-                0x08001bf4                TIM3_IRQHandler
-                0x08001bf4                RCC_IRQHandler
-                0x08001bf4                TIM8_BRK_TIM12_IRQHandler
-                0x08001bf4                Default_Handler
-                0x08001bf4                EXTI15_10_IRQHandler
-                0x08001bf4                ADC_IRQHandler
-                0x08001bf4                DMA1_Stream7_IRQHandler
-                0x08001bf4                TIM7_IRQHandler
-                0x08001bf4                CAN2_TX_IRQHandler
-                0x08001bf4                TIM5_IRQHandler
-                0x08001bf4                I2C3_EV_IRQHandler
-                0x08001bf4                EXTI9_5_IRQHandler
-                0x08001bf4                RTC_WKUP_IRQHandler
-                0x08001bf4                ETH_WKUP_IRQHandler
-                0x08001bf4                SPI2_IRQHandler
-                0x08001bf4                OTG_HS_EP1_IN_IRQHandler
-                0x08001bf4                DMA1_Stream0_IRQHandler
-                0x08001bf4                CAN1_TX_IRQHandler
-                0x08001bf4                EXTI4_IRQHandler
-                0x08001bf4                FSMC_IRQHandler
-                0x08001bf4                ETH_IRQHandler
-                0x08001bf4                OTG_HS_EP1_OUT_IRQHandler
-                0x08001bf4                WWDG_IRQHandler
-                0x08001bf4                TIM2_IRQHandler
-                0x08001bf4                OTG_FS_WKUP_IRQHandler
-                0x08001bf4                TIM1_TRG_COM_TIM11_IRQHandler
-                0x08001bf4                OTG_HS_IRQHandler
-                0x08001bf4                EXTI1_IRQHandler
-                0x08001bf4                USART2_IRQHandler
-                0x08001bf4                I2C2_ER_IRQHandler
-                0x08001bf4                DMA2_Stream1_IRQHandler
-                0x08001bf4                CAN1_SCE_IRQHandler
-                0x08001bf4                FLASH_IRQHandler
-                0x08001bf4                DMA2_Stream4_IRQHandler
-                0x08001bf4                OTG_FS_IRQHandler
-                0x08001bf4                SPI3_IRQHandler
-                0x08001bf4                DMA1_Stream4_IRQHandler
-                0x08001bf4                I2C1_ER_IRQHandler
-                0x08001bf4                DMA2_Stream6_IRQHandler
-                0x08001bf4                DMA1_Stream3_IRQHandler
- *fill*         0x08001bf6        0x2 
+                0x08001d7c        0x2 CMakeFiles/Template.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj
+                0x08001d7c                RTC_Alarm_IRQHandler
+                0x08001d7c                HASH_RNG_IRQHandler
+                0x08001d7c                EXTI2_IRQHandler
+                0x08001d7c                TIM1_CC_IRQHandler
+                0x08001d7c                DMA2_Stream5_IRQHandler
+                0x08001d7c                DMA1_Stream5_IRQHandler
+                0x08001d7c                PVD_IRQHandler
+                0x08001d7c                SDIO_IRQHandler
+                0x08001d7c                TAMP_STAMP_IRQHandler
+                0x08001d7c                CAN2_RX1_IRQHandler
+                0x08001d7c                EXTI3_IRQHandler
+                0x08001d7c                TIM8_TRG_COM_TIM14_IRQHandler
+                0x08001d7c                TIM1_UP_TIM10_IRQHandler
+                0x08001d7c                TIM8_UP_TIM13_IRQHandler
+                0x08001d7c                I2C3_ER_IRQHandler
+                0x08001d7c                EXTI0_IRQHandler
+                0x08001d7c                I2C2_EV_IRQHandler
+                0x08001d7c                DMA1_Stream2_IRQHandler
+                0x08001d7c                CAN1_RX0_IRQHandler
+                0x08001d7c                FPU_IRQHandler
+                0x08001d7c                OTG_HS_WKUP_IRQHandler
+                0x08001d7c                CAN2_SCE_IRQHandler
+                0x08001d7c                SPI1_IRQHandler
+                0x08001d7c                TIM6_DAC_IRQHandler
+                0x08001d7c                TIM1_BRK_TIM9_IRQHandler
+                0x08001d7c                DCMI_IRQHandler
+                0x08001d7c                CAN2_RX0_IRQHandler
+                0x08001d7c                DMA2_Stream3_IRQHandler
+                0x08001d7c                USART6_IRQHandler
+                0x08001d7c                USART3_IRQHandler
+                0x08001d7c                CAN1_RX1_IRQHandler
+                0x08001d7c                UART5_IRQHandler
+                0x08001d7c                TIM4_IRQHandler
+                0x08001d7c                I2C1_EV_IRQHandler
+                0x08001d7c                DMA1_Stream6_IRQHandler
+                0x08001d7c                DMA1_Stream1_IRQHandler
+                0x08001d7c                UART4_IRQHandler
+                0x08001d7c                TIM3_IRQHandler
+                0x08001d7c                RCC_IRQHandler
+                0x08001d7c                TIM8_BRK_TIM12_IRQHandler
+                0x08001d7c                Default_Handler
+                0x08001d7c                EXTI15_10_IRQHandler
+                0x08001d7c                ADC_IRQHandler
+                0x08001d7c                DMA1_Stream7_IRQHandler
+                0x08001d7c                TIM7_IRQHandler
+                0x08001d7c                CAN2_TX_IRQHandler
+                0x08001d7c                TIM5_IRQHandler
+                0x08001d7c                I2C3_EV_IRQHandler
+                0x08001d7c                EXTI9_5_IRQHandler
+                0x08001d7c                RTC_WKUP_IRQHandler
+                0x08001d7c                ETH_WKUP_IRQHandler
+                0x08001d7c                SPI2_IRQHandler
+                0x08001d7c                OTG_HS_EP1_IN_IRQHandler
+                0x08001d7c                DMA1_Stream0_IRQHandler
+                0x08001d7c                CAN1_TX_IRQHandler
+                0x08001d7c                EXTI4_IRQHandler
+                0x08001d7c                FSMC_IRQHandler
+                0x08001d7c                ETH_IRQHandler
+                0x08001d7c                OTG_HS_EP1_OUT_IRQHandler
+                0x08001d7c                WWDG_IRQHandler
+                0x08001d7c                TIM2_IRQHandler
+                0x08001d7c                OTG_FS_WKUP_IRQHandler
+                0x08001d7c                TIM1_TRG_COM_TIM11_IRQHandler
+                0x08001d7c                OTG_HS_IRQHandler
+                0x08001d7c                EXTI1_IRQHandler
+                0x08001d7c                USART2_IRQHandler
+                0x08001d7c                I2C2_ER_IRQHandler
+                0x08001d7c                DMA2_Stream1_IRQHandler
+                0x08001d7c                CAN1_SCE_IRQHandler
+                0x08001d7c                FLASH_IRQHandler
+                0x08001d7c                DMA2_Stream4_IRQHandler
+                0x08001d7c                OTG_FS_IRQHandler
+                0x08001d7c                SPI3_IRQHandler
+                0x08001d7c                DMA1_Stream4_IRQHandler
+                0x08001d7c                I2C1_ER_IRQHandler
+                0x08001d7c                DMA2_Stream6_IRQHandler
+                0x08001d7c                DMA1_Stream3_IRQHandler
+ *fill*         0x08001d7e        0x2 
  .text.HAL_InitTick
-                0x08001bf8       0x4c CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x08001bf8                HAL_InitTick
+                0x08001d80       0x4c CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x08001d80                HAL_InitTick
  .text.HAL_Init
-                0x08001c44       0x34 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x08001c44                HAL_Init
+                0x08001dcc       0x34 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x08001dcc                HAL_Init
  .text.HAL_IncTick
-                0x08001c78       0x18 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x08001c78                HAL_IncTick
+                0x08001e00       0x18 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x08001e00                HAL_IncTick
  .text.HAL_GetTick
-                0x08001c90        0xc CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x08001c90                HAL_GetTick
+                0x08001e18        0xc CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x08001e18                HAL_GetTick
  .text.HAL_Delay
-                0x08001c9c       0x28 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x08001c9c                HAL_Delay
+                0x08001e24       0x28 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x08001e24                HAL_Delay
  .text.ADC_Init
-                0x08001cc4      0x134 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+                0x08001e4c      0x134 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
  .text.HAL_ADC_Init
-                0x08001df8       0x56 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
-                0x08001df8                HAL_ADC_Init
- *fill*         0x08001e4e        0x2 
+                0x08001f80       0x56 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+                0x08001f80                HAL_ADC_Init
+ *fill*         0x08001fd6        0x2 
  .text.HAL_ADC_Start_DMA
-                0x08001e50      0x19c CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
-                0x08001e50                HAL_ADC_Start_DMA
+                0x08001fd8      0x19c CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+                0x08001fd8                HAL_ADC_Start_DMA
  .text.HAL_ADC_ConvCpltCallback
-                0x08001fec        0x2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
-                0x08001fec                HAL_ADC_ConvCpltCallback
+                0x08002174        0x2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+                0x08002174                HAL_ADC_ConvCpltCallback
  .text.HAL_ADC_ConvHalfCpltCallback
-                0x08001fee        0x2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
-                0x08001fee                HAL_ADC_ConvHalfCpltCallback
+                0x08002176        0x2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+                0x08002176                HAL_ADC_ConvHalfCpltCallback
  .text.ADC_DMAHalfConvCplt
-                0x08001ff0        0xa CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+                0x08002178        0xa CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
  .text.HAL_ADC_ErrorCallback
-                0x08001ffa        0x2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
-                0x08001ffa                HAL_ADC_ErrorCallback
+                0x08002182        0x2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+                0x08002182                HAL_ADC_ErrorCallback
  .text.ADC_DMAError
-                0x08001ffc       0x16 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+                0x08002184       0x16 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
  .text.ADC_DMAConvCplt
-                0x08002012       0x72 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+                0x0800219a       0x72 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
  .text.HAL_ADC_ConfigChannel
-                0x08002084      0x198 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
-                0x08002084                HAL_ADC_ConfigChannel
+                0x0800220c      0x198 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+                0x0800220c                HAL_ADC_ConfigChannel
  .text.HAL_NVIC_SetPriorityGrouping
-                0x0800221c       0x24 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x0800221c                HAL_NVIC_SetPriorityGrouping
+                0x080023a4       0x24 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x080023a4                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x08002240       0x70 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x08002240                HAL_NVIC_SetPriority
+                0x080023c8       0x70 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x080023c8                HAL_NVIC_SetPriority
  .text.HAL_NVIC_EnableIRQ
-                0x080022b0       0x1c CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x080022b0                HAL_NVIC_EnableIRQ
+                0x08002438       0x1c CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x08002438                HAL_NVIC_EnableIRQ
  .text.HAL_SYSTICK_Config
-                0x080022cc       0x28 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x080022cc                HAL_SYSTICK_Config
+                0x08002454       0x28 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x08002454                HAL_SYSTICK_Config
  .text.DMA_SetConfig
-                0x080022f4       0x2c CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+                0x0800247c       0x2c CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .text.DMA_CalcBaseAndBitshift
-                0x08002320       0x40 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+                0x080024a8       0x40 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .text.DMA_CheckFifoParam
-                0x08002360       0x8e CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
- *fill*         0x080023ee        0x2 
+                0x080024e8       0x8e CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+ *fill*         0x08002576        0x2 
  .text.HAL_DMA_Init
-                0x080023f0       0xcc CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
-                0x080023f0                HAL_DMA_Init
+                0x08002578       0xcc CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+                0x08002578                HAL_DMA_Init
  .text.HAL_DMA_Start_IT
-                0x080024bc       0x6a CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
-                0x080024bc                HAL_DMA_Start_IT
+                0x08002644       0x6a CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+                0x08002644                HAL_DMA_Start_IT
  .text.HAL_DMA_Abort
-                0x08002526       0x94 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
-                0x08002526                HAL_DMA_Abort
+                0x080026ae       0x94 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+                0x080026ae                HAL_DMA_Abort
  .text.HAL_DMA_Abort_IT
-                0x080025ba       0x26 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
-                0x080025ba                HAL_DMA_Abort_IT
+                0x08002742       0x26 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+                0x08002742                HAL_DMA_Abort_IT
  .text.HAL_DMA_IRQHandler
-                0x080025e0      0x1dc CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
-                0x080025e0                HAL_DMA_IRQHandler
+                0x08002768      0x1dc CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+                0x08002768                HAL_DMA_IRQHandler
  .text.HAL_GPIO_Init
-                0x080027bc      0x1e4 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
-                0x080027bc                HAL_GPIO_Init
+                0x08002944      0x1e4 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                0x08002944                HAL_GPIO_Init
  .text.HAL_GPIO_WritePin
-                0x080029a0        0xc CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
-                0x080029a0                HAL_GPIO_WritePin
+                0x08002b28        0xc CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                0x08002b28                HAL_GPIO_WritePin
  .text.HAL_GPIO_TogglePin
-                0x080029ac       0x12 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
-                0x080029ac                HAL_GPIO_TogglePin
- *fill*         0x080029be        0x2 
+                0x08002b34       0x12 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                0x08002b34                HAL_GPIO_TogglePin
+ *fill*         0x08002b46        0x2 
  .text.HAL_RCC_OscConfig
-                0x080029c0      0x3f8 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x080029c0                HAL_RCC_OscConfig
+                0x08002b48      0x3f8 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x08002b48                HAL_RCC_OscConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x08002db8       0xd4 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x08002db8                HAL_RCC_GetSysClockFreq
+                0x08002f40       0xd4 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x08002f40                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_ClockConfig
-                0x08002e8c      0x160 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x08002e8c                HAL_RCC_ClockConfig
+                0x08003014      0x160 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x08003014                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetHCLKFreq
-                0x08002fec        0xc CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x08002fec                HAL_RCC_GetHCLKFreq
+                0x08003174        0xc CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x08003174                HAL_RCC_GetHCLKFreq
  .text.HAL_RCC_GetPCLK1Freq
-                0x08002ff8       0x20 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x08002ff8                HAL_RCC_GetPCLK1Freq
+                0x08003180       0x20 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x08003180                HAL_RCC_GetPCLK1Freq
  .text.HAL_RCC_GetPCLK2Freq
-                0x08003018       0x20 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x08003018                HAL_RCC_GetPCLK2Freq
+                0x080031a0       0x20 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x080031a0                HAL_RCC_GetPCLK2Freq
  .text.HAL_SRAM_Init
-                0x08003038       0x58 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj
-                0x08003038                HAL_SRAM_Init
+                0x080031c0       0x58 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj
+                0x080031c0                HAL_SRAM_Init
  .text.TIM_TI1_ConfigInputStage
-                0x08003090       0x24 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x08003218       0x24 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.TIM_TI2_SetConfig
+                0x0800323c       0x36 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.TIM_TI2_ConfigInputStage
-                0x080030b4       0x26 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x08003272       0x26 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.TIM_TI3_SetConfig
+                0x08003298       0x36 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.TIM_TI4_SetConfig
+                0x080032ce       0x36 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.TIM_ITRx_SetConfig
-                0x080030da       0x10 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- *fill*         0x080030ea        0x2 
+                0x08003304       0x10 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.HAL_TIM_Base_Start
-                0x080030ec       0x7c CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x080030ec                HAL_TIM_Base_Start
+                0x08003314       0x7c CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x08003314                HAL_TIM_Base_Start
+ .text.HAL_TIM_IC_MspInit
+                0x08003390        0x2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x08003390                HAL_TIM_IC_MspInit
+ .text.HAL_TIM_ReadCapturedValue
+                0x08003392       0x32 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x08003392                HAL_TIM_ReadCapturedValue
+ .text.HAL_TIM_PeriodElapsedCallback
+                0x080033c4        0x2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x080033c4                HAL_TIM_PeriodElapsedCallback
+ .text.HAL_TIM_OC_DelayElapsedCallback
+                0x080033c6        0x2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x080033c6                HAL_TIM_OC_DelayElapsedCallback
+ .text.HAL_TIM_PWM_PulseFinishedCallback
+                0x080033c8        0x2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x080033c8                HAL_TIM_PWM_PulseFinishedCallback
+ .text.HAL_TIM_TriggerCallback
+                0x080033ca        0x2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x080033ca                HAL_TIM_TriggerCallback
+ .text.HAL_TIM_IRQHandler
+                0x080033cc      0x17a CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x080033cc                HAL_TIM_IRQHandler
+ *fill*         0x08003546        0x2 
  .text.TIM_Base_SetConfig
-                0x08003168       0xc8 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x08003168                TIM_Base_SetConfig
+                0x08003548       0xc8 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x08003548                TIM_Base_SetConfig
  .text.HAL_TIM_Base_Init
-                0x08003230       0x58 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x08003230                HAL_TIM_Base_Init
+                0x08003610       0x58 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x08003610                HAL_TIM_Base_Init
+ .text.HAL_TIM_IC_Init
+                0x08003668       0x58 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x08003668                HAL_TIM_IC_Init
+ .text.TIM_TI1_SetConfig
+                0x080036c0       0x7c CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x080036c0                TIM_TI1_SetConfig
+ .text.HAL_TIM_IC_ConfigChannel
+                0x0800373c       0xc4 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0800373c                HAL_TIM_IC_ConfigChannel
  .text.TIM_ETR_SetConfig
-                0x08003288       0x18 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x08003288                TIM_ETR_SetConfig
+                0x08003800       0x18 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x08003800                TIM_ETR_SetConfig
  .text.HAL_TIM_ConfigClockSource
-                0x080032a0       0xfe CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x080032a0                HAL_TIM_ConfigClockSource
- *fill*         0x0800339e        0x2 
+                0x08003818       0xfe CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x08003818                HAL_TIM_ConfigClockSource
+ .text.TIM_SlaveTimer_SetConfig
+                0x08003916       0xb8 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_SlaveConfigSynchro
+                0x080039ce       0x52 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x080039ce                HAL_TIM_SlaveConfigSynchro
+ .text.TIM_CCxChannelCmd
+                0x08003a20       0x1e CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x08003a20                TIM_CCxChannelCmd
+ *fill*         0x08003a3e        0x2 
+ .text.HAL_TIM_IC_Start_IT
+                0x08003a40      0x174 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x08003a40                HAL_TIM_IC_Start_IT
  .text.HAL_TIMEx_MasterConfigSynchronization
-                0x080033a0       0x8c CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
-                0x080033a0                HAL_TIMEx_MasterConfigSynchronization
+                0x08003bb4       0x8c CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+                0x08003bb4                HAL_TIMEx_MasterConfigSynchronization
+ .text.HAL_TIMEx_CommutCallback
+                0x08003c40        0x2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+                0x08003c40                HAL_TIMEx_CommutCallback
+ .text.HAL_TIMEx_BreakCallback
+                0x08003c42        0x2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+                0x08003c42                HAL_TIMEx_BreakCallback
  .text.UART_EndRxTransfer
-                0x0800342c       0x5c CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x08003c44       0x5c CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .text.UART_Transmit_IT
-                0x08003488       0x60 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x08003ca0       0x60 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .text.UART_SetConfig
-                0x080034e8      0x110 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x08003d00      0x110 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .text.HAL_UART_Init
-                0x080035f8       0x5e CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x080035f8                HAL_UART_Init
+                0x08003e10       0x5e CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x08003e10                HAL_UART_Init
  .text.HAL_UART_TxCpltCallback
-                0x08003656        0x2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x08003656                HAL_UART_TxCpltCallback
+                0x08003e6e        0x2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x08003e6e                HAL_UART_TxCpltCallback
  .text.UART_EndTransmit_IT
-                0x08003658       0x1a CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x08003e70       0x1a CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .text.HAL_UART_RxCpltCallback
-                0x08003672        0x2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x08003672                HAL_UART_RxCpltCallback
+                0x08003e8a        0x2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x08003e8a                HAL_UART_RxCpltCallback
  .text.HAL_UART_ErrorCallback
-                0x08003674        0x2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x08003674                HAL_UART_ErrorCallback
+                0x08003e8c        0x2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x08003e8c                HAL_UART_ErrorCallback
  .text.UART_DMAAbortOnError
-                0x08003676       0x10 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x08003e8e       0x10 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .text.HAL_UARTEx_RxEventCallback
-                0x08003686        0x2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x08003686                HAL_UARTEx_RxEventCallback
+                0x08003e9e        0x2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x08003e9e                HAL_UARTEx_RxEventCallback
  .text.UART_Receive_IT
-                0x08003688       0xe2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
- *fill*         0x0800376a        0x2 
+                0x08003ea0       0xe2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ *fill*         0x08003f82        0x2 
  .text.HAL_UART_IRQHandler
-                0x0800376c      0x280 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x0800376c                HAL_UART_IRQHandler
+                0x08003f84      0x280 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x08003f84                HAL_UART_IRQHandler
  .text.FSMC_NORSRAM_Init
-                0x080039ec       0x68 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj
-                0x080039ec                FSMC_NORSRAM_Init
+                0x08004204       0x68 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj
+                0x08004204                FSMC_NORSRAM_Init
  .text.FSMC_NORSRAM_Timing_Init
-                0x08003a54       0x50 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj
-                0x08003a54                FSMC_NORSRAM_Timing_Init
+                0x0800426c       0x50 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj
+                0x0800426c                FSMC_NORSRAM_Timing_Init
  .text.FSMC_NORSRAM_Extended_Timing_Init
-                0x08003aa4       0x44 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj
-                0x08003aa4                FSMC_NORSRAM_Extended_Timing_Init
+                0x080042bc       0x44 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj
+                0x080042bc                FSMC_NORSRAM_Extended_Timing_Init
  .text.lcd_rd_data
-                0x08003ae8       0x1a CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
- .text.lcd_pow  0x08003b02       0x16 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+                0x08004300       0x1a CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+ .text.lcd_pow  0x0800431a       0x16 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
  .text.lcd_wr_data
-                0x08003b18       0x22 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
-                0x08003b18                lcd_wr_data
+                0x08004330       0x22 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+                0x08004330                lcd_wr_data
  .text.lcd_wr_regno
-                0x08003b3a       0x22 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
-                0x08003b3a                lcd_wr_regno
+                0x08004352       0x22 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+                0x08004352                lcd_wr_regno
  .text.lcd_ex_st7789_reginit
-                0x08003b5c      0x1a8 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
-                0x08003b5c                lcd_ex_st7789_reginit
+                0x08004374      0x1a8 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+                0x08004374                lcd_ex_st7789_reginit
  .text.lcd_ex_ili9341_reginit
-                0x08003d04      0x22c CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
-                0x08003d04                lcd_ex_ili9341_reginit
+                0x0800451c      0x22c CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+                0x0800451c                lcd_ex_ili9341_reginit
  .text.lcd_ex_nt35310_reginit
-                0x08003f30      0xef2 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
-                0x08003f30                lcd_ex_nt35310_reginit
+                0x08004748      0xef2 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+                0x08004748                lcd_ex_nt35310_reginit
  .text.lcd_ex_ssd1963_reginit
-                0x08004e22      0x16e CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
-                0x08004e22                lcd_ex_ssd1963_reginit
+                0x0800563a      0x16e CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+                0x0800563a                lcd_ex_ssd1963_reginit
  .text.lcd_write_reg
-                0x08004f90        0xe CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
-                0x08004f90                lcd_write_reg
+                0x080057a8        0xe CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+                0x080057a8                lcd_write_reg
  .text.lcd_ex_nt35510_reginit
-                0x08004f9e      0xefc CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
-                0x08004f9e                lcd_ex_nt35510_reginit
- *fill*         0x08005e9a        0x2 
+                0x080057b6      0xefc CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+                0x080057b6                lcd_ex_nt35510_reginit
+ *fill*         0x080066b2        0x2 
  .text.lcd_write_ram_prepare
-                0x08005e9c       0x14 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
-                0x08005e9c                lcd_write_ram_prepare
+                0x080066b4       0x14 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+                0x080066b4                lcd_write_ram_prepare
  .text.lcd_set_cursor
-                0x08005eb0      0x10c CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
-                0x08005eb0                lcd_set_cursor
+                0x080066c8      0x10c CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+                0x080066c8                lcd_set_cursor
  .text.lcd_scan_dir
-                0x08005fbc      0x1d8 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
-                0x08005fbc                lcd_scan_dir
+                0x080067d4      0x1d8 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+                0x080067d4                lcd_scan_dir
  .text.lcd_draw_point
-                0x08006194       0x18 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
-                0x08006194                lcd_draw_point
- *fill*         0x080061ac        0x4 
+                0x080069ac       0x18 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+                0x080069ac                lcd_draw_point
+ *fill*         0x080069c4        0x4 
  .text.lcd_ssd_backlight_set
-                0x080061b0       0x50 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
-                0x080061b0                lcd_ssd_backlight_set
+                0x080069c8       0x50 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+                0x080069c8                lcd_ssd_backlight_set
  .text.lcd_display_dir
-                0x08006200      0x118 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
-                0x08006200                lcd_display_dir
+                0x08006a18      0x118 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+                0x08006a18                lcd_display_dir
  .text.lcd_clear
-                0x08006318       0x34 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
-                0x08006318                lcd_clear
+                0x08006b30       0x34 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+                0x08006b30                lcd_clear
  .text.lcd_init
-                0x0800634c      0x354 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
-                0x0800634c                lcd_init
+                0x08006b64      0x354 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+                0x08006b64                lcd_init
  .text.lcd_fill
-                0x080066a0       0x44 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
-                0x080066a0                lcd_fill
+                0x08006eb8       0x44 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+                0x08006eb8                lcd_fill
  .text.lcd_draw_line
-                0x080066e4       0xa6 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
-                0x080066e4                lcd_draw_line
- *fill*         0x0800678a        0x2 
+                0x08006efc       0xa6 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+                0x08006efc                lcd_draw_line
+ *fill*         0x08006fa2        0x2 
  .text.lcd_draw_hline
-                0x0800678c       0x38 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
-                0x0800678c                lcd_draw_hline
+                0x08006fa4       0x38 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+                0x08006fa4                lcd_draw_hline
  .text.lcd_fill_circle
-                0x080067c4       0xcc CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
-                0x080067c4                lcd_fill_circle
+                0x08006fdc       0xcc CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+                0x08006fdc                lcd_fill_circle
  .text.lcd_show_char
-                0x08006890      0x118 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
-                0x08006890                lcd_show_char
+                0x080070a8      0x118 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+                0x080070a8                lcd_show_char
  .text.lcd_show_xnum
-                0x080069a8       0xc8 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
-                0x080069a8                lcd_show_xnum
+                0x080071c0       0xc8 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+                0x080071c0                lcd_show_xnum
  .text.lcd_show_string
-                0x08006a70       0x62 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
-                0x08006a70                lcd_show_string
- *fill*         0x08006ad2        0x2 
- .text.display  0x08006ad4      0x12c CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
-                0x08006ad4                display
+                0x08007288       0x62 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+                0x08007288                lcd_show_string
+ *fill*         0x080072ea        0x2 
+ .text.display  0x080072ec      0x12c CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+                0x080072ec                display
  .text.lcd_draw_bline
-                0x08006c00       0xc6 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
-                0x08006c00                lcd_draw_bline
- *fill*         0x08006cc6        0x2 
+                0x08007418       0xc6 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+                0x08007418                lcd_draw_bline
+ *fill*         0x080074de        0x2 
  .text.clear_point
-                0x08006cc8       0xb8 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
-                0x08006cc8                clear_point
- .text.FFT      0x08006d80      0x3f0 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
-                0x08006d80                FFT
+                0x080074e0       0x94 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
+                0x080074e0                clear_point
+ *fill*         0x08007574        0x4 
+ .text.FFT      0x08007578      0x3f0 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
+                0x08007578                FFT
+ .text.HAL_TIM_IC_CaptureCallback
+                0x08007968       0xc4 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
+                0x08007968                HAL_TIM_IC_CaptureCallback
  .text.delay_us
-                0x08007170        0xe CMakeFiles/Template.elf.dir/Myapp/Src/delay.c.obj
-                0x08007170                delay_us
+                0x08007a2c        0xe CMakeFiles/Template.elf.dir/Myapp/Src/delay.c.obj
+                0x08007a2c                delay_us
  .text.delay_ms
-                0x0800717e        0x8 CMakeFiles/Template.elf.dir/Myapp/Src/delay.c.obj
-                0x0800717e                delay_ms
+                0x08007a3a        0x8 CMakeFiles/Template.elf.dir/Myapp/Src/delay.c.obj
+                0x08007a3a                delay_ms
  .text.Loop_500Hz
-                0x08007186        0x2 CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj
+                0x08007a42        0x2 CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj
  .text.Loop_200Hz
-                0x08007188        0x2 CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj
+                0x08007a44        0x2 CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj
  .text.Loop_100Hz
-                0x0800718a        0x2 CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj
+                0x08007a46        0x2 CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj
  .text.Loop_50Hz
-                0x0800718c        0x2 CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj
+                0x08007a48        0x2 CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj
  .text.Loop_20Hz
-                0x0800718e        0x2 CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj
+                0x08007a4a        0x2 CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj
  .text.Loop_2Hz
-                0x08007190        0x2 CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj
- *fill*         0x08007192        0x2 
+                0x08007a4c        0x2 CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj
+ *fill*         0x08007a4e        0x2 
  .text.Loop_1000Hz
-                0x08007194       0x1c CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj
+                0x08007a50       0x24 CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj
  .text.Scheduler_Run
-                0x080071b0       0x44 CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj
-                0x080071b0                Scheduler_Run
+                0x08007a74       0x44 CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj
+                0x08007a74                Scheduler_Run
  .text.arm_cmplx_mag_f32
-                0x080071f4       0xe8 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cmplx_mag_f32.o)
-                0x080071f4                arm_cmplx_mag_f32
+                0x08007ab8       0xe8 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cmplx_mag_f32.o)
+                0x08007ab8                arm_cmplx_mag_f32
  .text.arm_cfft_radix8by2_f32
-                0x080072dc      0x282 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_f32.o)
-                0x080072dc                arm_cfft_radix8by2_f32
- *fill*         0x0800755e        0x2 
+                0x08007ba0      0x282 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_f32.o)
+                0x08007ba0                arm_cfft_radix8by2_f32
+ *fill*         0x08007e22        0x2 
  .text.arm_cfft_radix8by4_f32
-                0x08007560      0x69c D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_f32.o)
-                0x08007560                arm_cfft_radix8by4_f32
+                0x08007e24      0x69c D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_f32.o)
+                0x08007e24                arm_cfft_radix8by4_f32
  .text.arm_cfft_f32
-                0x08007bfc      0x100 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_f32.o)
-                0x08007bfc                arm_cfft_f32
+                0x080084c0      0x100 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_f32.o)
+                0x080084c0                arm_cfft_f32
  .text.arm_radix8_butterfly_f32
-                0x08007cfc      0x886 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_radix8_f32.o)
-                0x08007cfc                arm_radix8_butterfly_f32
- *fill*         0x08008582        0x2 
+                0x080085c0      0x886 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_radix8_f32.o)
+                0x080085c0                arm_radix8_butterfly_f32
+ *fill*         0x08008e46        0x2 
  .text.arm_max_f32
-                0x08008584      0x120 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_max_f32.o)
-                0x08008584                arm_max_f32
+                0x08008e48      0x120 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_max_f32.o)
+                0x08008e48                arm_max_f32
  .text.arm_min_f32
-                0x080086a4      0x120 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_min_f32.o)
-                0x080086a4                arm_min_f32
+                0x08008f68      0x120 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_min_f32.o)
+                0x08008f68                arm_min_f32
  .text.arm_rms_f32
-                0x080087c4       0xd2 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_rms_f32.o)
-                0x080087c4                arm_rms_f32
- *fill*         0x08008896        0x2 
+                0x08009088       0xd2 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_rms_f32.o)
+                0x08009088                arm_rms_f32
+ *fill*         0x0800915a        0x2 
  .text.arm_bitreversal_32
-                0x08008898       0x40 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_bitreversal2.o)
-                0x08008898                arm_bitreversal_32
- .text.__errno  0x080088d8        0xc d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-errno.o)
-                0x080088d8                __errno
+                0x0800915c       0x40 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_bitreversal2.o)
+                0x0800915c                arm_bitreversal_32
+ .text.__errno  0x0800919c        0xc d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-errno.o)
+                0x0800919c                __errno
  .text.__libc_init_array
-                0x080088e4       0x48 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
-                0x080088e4                __libc_init_array
- .text.memset   0x0800892c       0xa4 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
-                0x0800892c                memset
+                0x080091a8       0x48 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
+                0x080091a8                __libc_init_array
+ .text.memset   0x080091f0       0xa4 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
+                0x080091f0                memset
  .text.startup.register_fini
-                0x080089d0       0x14 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
- .text.atexit   0x080089e4        0xc d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
-                0x080089e4                atexit
+                0x08009294       0x14 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
+ .text.atexit   0x080092a8        0xc d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
+                0x080092a8                atexit
  .text.__libc_fini_array
-                0x080089f0       0x2c d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
-                0x080089f0                __libc_fini_array
+                0x080092b4       0x2c d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
+                0x080092b4                __libc_fini_array
  .text.__retarget_lock_acquire_recursive
-                0x08008a1c        0x4 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
-                0x08008a1c                __retarget_lock_acquire_recursive
+                0x080092e0        0x4 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+                0x080092e0                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x08008a20        0x4 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
-                0x08008a20                __retarget_lock_release_recursive
+                0x080092e4        0x4 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+                0x080092e4                __retarget_lock_release_recursive
  .text.__register_exitproc
-                0x08008a24       0x8c d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
-                0x08008a24                __register_exitproc
- .text.sqrtf    0x08008ab0       0x38 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libm.a(lib_a-wf_sqrt.o)
-                0x08008ab0                sqrtf
+                0x080092e8       0x8c d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
+                0x080092e8                __register_exitproc
+ .text.sqrtf    0x08009374       0x38 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libm.a(lib_a-wf_sqrt.o)
+                0x08009374                sqrtf
  .text.__ieee754_sqrtf
-                0x08008ae8       0xb0 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libm.a(lib_a-ef_sqrt.o)
-                0x08008ae8                __ieee754_sqrtf
+                0x080093ac       0xb0 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libm.a(lib_a-ef_sqrt.o)
+                0x080093ac                __ieee754_sqrtf
  *(.glue_7)
- .glue_7        0x08008b98        0x0 linker stubs
+ .glue_7        0x0800945c        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x08008b98        0x0 linker stubs
+ .glue_7t       0x0800945c        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x08008b98        0x0 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+ .eh_frame      0x0800945c        0x0 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
  *(.init)
- .init          0x08008b98        0x4 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crti.o
-                0x08008b98                _init
- .init          0x08008b9c        0x8 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
+ .init          0x0800945c        0x4 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crti.o
+                0x0800945c                _init
+ .init          0x08009460        0x8 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
  *(.fini)
- .fini          0x08008ba4        0x4 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crti.o
-                0x08008ba4                _fini
- .fini          0x08008ba8        0x8 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
-                0x08008bb0                . = ALIGN (0x4)
-                0x08008bb0                _etext = .
+ .fini          0x08009468        0x4 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crti.o
+                0x08009468                _fini
+ .fini          0x0800946c        0x8 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
+                0x08009474                . = ALIGN (0x4)
+                0x08009474                _etext = .
 
-.vfp11_veneer   0x08008bb0        0x0
- .vfp11_veneer  0x08008bb0        0x0 linker stubs
+.vfp11_veneer   0x08009474        0x0
+ .vfp11_veneer  0x08009474        0x0 linker stubs
 
-.v4_bx          0x08008bb0        0x0
- .v4_bx         0x08008bb0        0x0 linker stubs
+.v4_bx          0x08009474        0x0
+ .v4_bx         0x08009474        0x0 linker stubs
 
-.iplt           0x08008bb0        0x0
- .iplt          0x08008bb0        0x0 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+.iplt           0x08009474        0x0
+ .iplt          0x08009474        0x0 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
 
-.rodata         0x08008bb0     0x5e34
-                0x08008bb0                . = ALIGN (0x4)
+.rodata         0x08009474     0x5e34
+                0x08009474                . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
  .rodata.AHBPrescTable
-                0x08008bb0       0x10 CMakeFiles/Template.elf.dir/Core/Src/system_stm32f4xx.c.obj
-                0x08008bb0                AHBPrescTable
+                0x08009474       0x10 CMakeFiles/Template.elf.dir/Core/Src/system_stm32f4xx.c.obj
+                0x08009474                AHBPrescTable
  .rodata.APBPrescTable
-                0x08008bc0        0x8 CMakeFiles/Template.elf.dir/Core/Src/system_stm32f4xx.c.obj
-                0x08008bc0                APBPrescTable
+                0x08009484        0x8 CMakeFiles/Template.elf.dir/Core/Src/system_stm32f4xx.c.obj
+                0x08009484                APBPrescTable
  .rodata.flagBitshiftOffset.0
-                0x08008bc8        0x8 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+                0x0800948c        0x8 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .rodata.display.str1.4
-                0x08008bd0       0x4f CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
- *fill*         0x08008c1f        0x1 
+                0x08009494       0x4f CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+ *fill*         0x080094e3        0x1 
  .rodata.asc2_1206
-                0x08008c20      0x474 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
-                0x08008c20                asc2_1206
+                0x080094e4      0x474 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+                0x080094e4                asc2_1206
  .rodata.asc2_1608
-                0x08009094      0x5f0 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
-                0x08009094                asc2_1608
+                0x08009958      0x5f0 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+                0x08009958                asc2_1608
  .rodata.asc2_2412
-                0x08009684      0xd5c CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
-                0x08009684                asc2_2412
+                0x08009f48      0xd5c CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+                0x08009f48                asc2_2412
  .rodata.asc2_3216
-                0x0800a3e0     0x17c0 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
-                0x0800a3e0                asc2_3216
+                0x0800aca4     0x17c0 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+                0x0800aca4                asc2_3216
  .rodata.FFT.str1.4
-                0x0800bba0       0x20 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
+                0x0800c464       0x20 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
  .rodata.arm_cfft_sR_f32_len1024
-                0x0800bbc0       0x10 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_const_structs.o)
-                0x0800bbc0                arm_cfft_sR_f32_len1024
+                0x0800c484       0x10 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_const_structs.o)
+                0x0800c484                arm_cfft_sR_f32_len1024
  .rodata.twiddleCoef_1024
-                0x0800bbd0     0x2000 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_common_tables.o)
-                0x0800bbd0                twiddleCoef_1024
+                0x0800c494     0x2000 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_common_tables.o)
+                0x0800c494                twiddleCoef_1024
  .rodata.armBitRevIndexTable1024
-                0x0800dbd0      0xe10 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_common_tables.o)
-                0x0800dbd0                armBitRevIndexTable1024
+                0x0800e494      0xe10 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_common_tables.o)
+                0x0800e494                armBitRevIndexTable1024
  .rodata._global_impure_ptr
-                0x0800e9e0        0x4 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
-                0x0800e9e0                _global_impure_ptr
-                0x0800e9e4                . = ALIGN (0x4)
+                0x0800f2a4        0x4 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
+                0x0800f2a4                _global_impure_ptr
+                0x0800f2a8                . = ALIGN (0x4)
 
-.ARM.extab      0x0800e9e4        0x0
-                0x0800e9e4                . = ALIGN (0x4)
+.ARM.extab      0x0800f2a8        0x0
+                0x0800f2a8                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0800e9e4                . = ALIGN (0x4)
+                0x0800f2a8                . = ALIGN (0x4)
 
-.ARM            0x0800e9e4        0x8
-                0x0800e9e4                . = ALIGN (0x4)
-                0x0800e9e4                __exidx_start = .
+.ARM            0x0800f2a8        0x8
+                0x0800f2a8                . = ALIGN (0x4)
+                0x0800f2a8                __exidx_start = .
  *(.ARM.exidx*)
  .ARM.exidx.text.arm_cmplx_mag_f32
-                0x0800e9ec        0x0 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cmplx_mag_f32.o)
+                0x0800f2b0        0x0 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cmplx_mag_f32.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.arm_cfft_radix8by2_f32
-                0x0800e9ec        0x0 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_f32.o)
+                0x0800f2b0        0x0 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_f32.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.arm_cfft_radix8by4_f32
-                0x0800e9ec        0x0 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_f32.o)
+                0x0800f2b0        0x0 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_f32.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.arm_cfft_f32
-                0x0800e9ec        0x0 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_f32.o)
+                0x0800f2b0        0x0 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_f32.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.arm_radix8_butterfly_f32
-                0x0800e9ec        0x0 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_radix8_f32.o)
+                0x0800f2b0        0x0 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_radix8_f32.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.arm_max_f32
-                0x0800e9ec        0x0 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_max_f32.o)
+                0x0800f2b0        0x0 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_max_f32.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.arm_min_f32
-                0x0800e9ec        0x0 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_min_f32.o)
+                0x0800f2b0        0x0 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_min_f32.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.arm_rms_f32
-                0x0800e9ec        0x0 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_rms_f32.o)
+                0x0800f2b0        0x0 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_rms_f32.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.arm_bitreversal_32
-                0x0800e9ec        0x0 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_bitreversal2.o)
+                0x0800f2b0        0x0 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_bitreversal2.o)
                                   0x8 (size before relaxing)
- .ARM.exidx     0x0800e9e4        0x8 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
-                0x0800e9ec                __exidx_end = .
-                0x0800e9ec                . = ALIGN (0x4)
+ .ARM.exidx     0x0800f2a8        0x8 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
+                0x0800f2b0                __exidx_end = .
+                0x0800f2b0                . = ALIGN (0x4)
 
-.rel.dyn        0x0800e9ec        0x0
- .rel.iplt      0x0800e9ec        0x0 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+.rel.dyn        0x0800f2b0        0x0
+ .rel.iplt      0x0800f2b0        0x0 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
 
-.preinit_array  0x0800e9ec        0x0
-                0x0800e9ec                . = ALIGN (0x4)
-                0x0800e9ec                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x0800f2b0        0x0
+                0x0800f2b0                . = ALIGN (0x4)
+                0x0800f2b0                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x0800e9ec                PROVIDE (__preinit_array_end = .)
-                0x0800e9ec                . = ALIGN (0x4)
+                0x0800f2b0                PROVIDE (__preinit_array_end = .)
+                0x0800f2b0                . = ALIGN (0x4)
 
-.init_array     0x0800e9ec        0x8
-                0x0800e9ec                . = ALIGN (0x4)
-                0x0800e9ec                PROVIDE (__init_array_start = .)
+.init_array     0x0800f2b0        0x8
+                0x0800f2b0                . = ALIGN (0x4)
+                0x0800f2b0                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  .init_array.00000
-                0x0800e9ec        0x4 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
+                0x0800f2b0        0x4 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x0800e9f0        0x4 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
-                0x0800e9f4                PROVIDE (__init_array_end = .)
-                0x0800e9f4                . = ALIGN (0x4)
+ .init_array    0x0800f2b4        0x4 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+                0x0800f2b8                PROVIDE (__init_array_end = .)
+                0x0800f2b8                . = ALIGN (0x4)
 
-.fini_array     0x0800e9f4        0x4
-                0x0800e9f4                . = ALIGN (0x4)
-                0x0800e9f4                PROVIDE (__fini_array_start = .)
+.fini_array     0x0800f2b8        0x4
+                0x0800f2b8                . = ALIGN (0x4)
+                0x0800f2b8                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x0800e9f4        0x4 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
-                0x0800e9f8                PROVIDE (__fini_array_end = .)
-                0x0800e9f8                . = ALIGN (0x4)
-                0x0800e9f8                _sidata = LOADADDR (.data)
+ .fini_array    0x0800f2b8        0x4 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+                0x0800f2bc                PROVIDE (__fini_array_end = .)
+                0x0800f2bc                . = ALIGN (0x4)
+                0x0800f2bc                _sidata = LOADADDR (.data)
 
-.data           0x20000000      0x494 load address 0x0800e9f8
+.data           0x20000000      0x494 load address 0x0800f2bc
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _sdata = .
  *(.data)
@@ -3208,12 +3242,12 @@ LOAD d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-n
  *(.RamFunc*)
                 0x20000494                . = ALIGN (0x4)
                 0x20000494                _edata = .
-                0x0800ee8c                _siccmram = LOADADDR (.ccmram)
+                0x0800f750                _siccmram = LOADADDR (.ccmram)
 
-.igot.plt       0x20000494        0x0 load address 0x0800ee8c
+.igot.plt       0x20000494        0x0 load address 0x0800f750
  .igot.plt      0x20000494        0x0 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
 
-.ccmram         0x10000000        0x0 load address 0x0800ee8c
+.ccmram         0x10000000        0x0 load address 0x0800f750
                 0x10000000                . = ALIGN (0x4)
                 0x10000000                _sccmram = .
  *(.ccmram)
@@ -3222,7 +3256,7 @@ LOAD d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-n
                 0x10000000                _eccmram = .
                 0x10000000                . = ALIGN (0x4)
 
-.bss            0x20000494     0x5afc
+.bss            0x20000494     0x5b50
                 0x20000494                _sbss = .
                 0x20000494                __bss_start__ = _sbss
  *(.bss)
@@ -3241,76 +3275,87 @@ LOAD d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-n
                 0x200005ac                adcBuff
  .bss.htim2     0x20000dac       0x48 CMakeFiles/Template.elf.dir/Core/Src/tim.c.obj
                 0x20000dac                htim2
+ .bss.htim8     0x20000df4       0x48 CMakeFiles/Template.elf.dir/Core/Src/tim.c.obj
+                0x20000df4                htim8
  .bss.hdma_usart1_rx
-                0x20000df4       0x60 CMakeFiles/Template.elf.dir/Core/Src/usart.c.obj
-                0x20000df4                hdma_usart1_rx
+                0x20000e3c       0x60 CMakeFiles/Template.elf.dir/Core/Src/usart.c.obj
+                0x20000e3c                hdma_usart1_rx
  .bss.hdma_usart1_tx
-                0x20000e54       0x60 CMakeFiles/Template.elf.dir/Core/Src/usart.c.obj
-                0x20000e54                hdma_usart1_tx
- .bss.huart1    0x20000eb4       0x44 CMakeFiles/Template.elf.dir/Core/Src/usart.c.obj
-                0x20000eb4                huart1
- .bss.uwTick    0x20000ef8        0x4 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x20000ef8                uwTick
+                0x20000e9c       0x60 CMakeFiles/Template.elf.dir/Core/Src/usart.c.obj
+                0x20000e9c                hdma_usart1_tx
+ .bss.huart1    0x20000efc       0x44 CMakeFiles/Template.elf.dir/Core/Src/usart.c.obj
+                0x20000efc                huart1
+ .bss.uwTick    0x20000f40        0x4 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x20000f40                uwTick
  .bss.g_sram_handle
-                0x20000efc       0x50 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
-                0x20000efc                g_sram_handle
- .bss.lcddev    0x20000f4c        0xe CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
-                0x20000f4c                lcddev
- *fill*         0x20000f5a        0x2 
- .bss.Amax      0x20000f5c        0x4 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
-                0x20000f5c                Amax
- .bss.Amax_pos  0x20000f60        0x4 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
-                0x20000f60                Amax_pos
- .bss.Fmax      0x20000f64        0x4 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
-                0x20000f64                Fmax
- .bss.Npoints   0x20000f68        0x2 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
-                0x20000f68                Npoints
- *fill*         0x20000f6a        0x2 
- .bss.RMS       0x20000f6c        0x4 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
-                0x20000f6c                RMS
+                0x20000f44       0x50 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+                0x20000f44                g_sram_handle
+ .bss.lcddev    0x20000f94        0xe CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+                0x20000f94                lcddev
+ *fill*         0x20000fa2        0x2 
+ .bss.Amax      0x20000fa4        0x4 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
+                0x20000fa4                Amax
+ .bss.Amax_pos  0x20000fa8        0x4 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
+                0x20000fa8                Amax_pos
+ .bss.DutyCycle
+                0x20000fac        0x4 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
+                0x20000fac                DutyCycle
+ .bss.Fmax      0x20000fb0        0x4 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
+                0x20000fb0                Fmax
+ .bss.Frequency
+                0x20000fb4        0x4 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
+                0x20000fb4                Frequency
+ .bss.IC1Value  0x20000fb8        0x4 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
+                0x20000fb8                IC1Value
+ .bss.IC2Value  0x20000fbc        0x4 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
+                0x20000fbc                IC2Value
+ .bss.Npoints   0x20000fc0        0x2 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
+                0x20000fc0                Npoints
+ *fill*         0x20000fc2        0x2 
+ .bss.RMS       0x20000fc4        0x4 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
+                0x20000fc4                RMS
  .bss.fft_inputbuf
-                0x20000f70     0x2000 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
-                0x20000f70                fft_inputbuf
+                0x20000fc8     0x2000 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
+                0x20000fc8                fft_inputbuf
  .bss.fft_outputbuf
-                0x20002f70     0x1000 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
-                0x20002f70                fft_outputbuf
- .bss.fre       0x20003f70        0x4 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
-                0x20003f70                fre
- .bss.max_pos   0x20003f74        0x4 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
-                0x20003f74                max_pos
- .bss.min_pos   0x20003f78        0x4 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
-                0x20003f78                min_pos
- .bss.vmax      0x20003f7c        0x4 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
-                0x20003f7c                vmax
- .bss.vmin      0x20003f80        0x4 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
-                0x20003f80                vmin
- .bss.vpp       0x20003f84        0x4 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
-                0x20003f84                vpp
- .bss.wave      0x20003f88     0x1000 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
-                0x20003f88                wave
- .bss.wave1     0x20004f88     0x1000 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
-                0x20004f88                wave1
- .bss.x.0       0x20005f88        0x2 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
- *fill*         0x20005f8a        0x2 
+                0x20002fc8     0x1000 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
+                0x20002fc8                fft_outputbuf
+ .bss.fre       0x20003fc8        0x4 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
+                0x20003fc8                fre
+ .bss.max_pos   0x20003fcc        0x4 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
+                0x20003fcc                max_pos
+ .bss.min_pos   0x20003fd0        0x4 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
+                0x20003fd0                min_pos
+ .bss.vmax      0x20003fd4        0x4 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
+                0x20003fd4                vmax
+ .bss.vmin      0x20003fd8        0x4 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
+                0x20003fd8                vmin
+ .bss.vpp       0x20003fdc        0x4 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
+                0x20003fdc                vpp
+ .bss.wave      0x20003fe0     0x1000 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
+                0x20003fe0                wave
+ .bss.wave1     0x20004fe0     0x1000 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
+                0x20004fe0                wave1
  .bss.__lock___atexit_recursive_mutex
-                0x20005f8c        0x1 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
-                0x20005f8c                __lock___atexit_recursive_mutex
+                0x20005fe0        0x1 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+                0x20005fe0                __lock___atexit_recursive_mutex
  *(COMMON)
-                0x20005f90                . = ALIGN (0x4)
- *fill*         0x20005f8d        0x3 
-                0x20005f90                _ebss = .
-                0x20005f90                __bss_end__ = _ebss
+                0x20005fe4                . = ALIGN (0x4)
+ *fill*         0x20005fe1        0x3 
+                0x20005fe4                _ebss = .
+                0x20005fe4                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x20005f90      0x600
-                0x20005f90                . = ALIGN (0x8)
+                0x20005fe4      0x604
+                0x20005fe8                . = ALIGN (0x8)
+ *fill*         0x20005fe4        0x4 
                 [!provide]                PROVIDE (end = .)
-                0x20005f90                PROVIDE (_end = .)
-                0x20006190                . = (. + _Min_Heap_Size)
- *fill*         0x20005f90      0x200 
-                0x20006590                . = (. + _Min_Stack_Size)
- *fill*         0x20006190      0x400 
-                0x20006590                . = ALIGN (0x8)
+                0x20005fe8                PROVIDE (_end = .)
+                0x200061e8                . = (. + _Min_Heap_Size)
+ *fill*         0x20005fe8      0x200 
+                0x200065e8                . = (. + _Min_Stack_Size)
+ *fill*         0x200061e8      0x400 
+                0x200065e8                . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -3444,110 +3489,111 @@ LOAD d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-n
 LOAD d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libm.a
 LOAD d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a
 
-.debug_info     0x00000000    0x217b0
+.debug_info     0x00000000    0x22ef5
  .debug_info    0x00000000      0xac3 CMakeFiles/Template.elf.dir/Core/Src/adc.c.obj
  .debug_info    0x00000ac3      0x566 CMakeFiles/Template.elf.dir/Core/Src/dma.c.obj
  .debug_info    0x00001029      0xb2b CMakeFiles/Template.elf.dir/Core/Src/fsmc.c.obj
  .debug_info    0x00001b54      0x548 CMakeFiles/Template.elf.dir/Core/Src/gpio.c.obj
- .debug_info    0x0000209c      0xfbc CMakeFiles/Template.elf.dir/Core/Src/main.c.obj
- .debug_info    0x00003058      0x2a4 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_info    0x000032fc      0x706 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_info    0x00003a02      0x37d CMakeFiles/Template.elf.dir/Core/Src/system_stm32f4xx.c.obj
- .debug_info    0x00003d7f      0xa14 CMakeFiles/Template.elf.dir/Core/Src/tim.c.obj
- .debug_info    0x00004793      0xcf5 CMakeFiles/Template.elf.dir/Core/Src/usart.c.obj
- .debug_info    0x00005488       0x22 CMakeFiles/Template.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj
- .debug_info    0x000054aa      0x9f0 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_info    0x00005e9a      0xee1 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
- .debug_info    0x00006d7b     0x1098 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_info    0x00007e13      0xb3f CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
- .debug_info    0x00008952      0x7b0 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_info    0x00009102      0xb03 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_info    0x00009c05      0xf65 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj
- .debug_info    0x0000ab6a     0x3d5b CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .debug_info    0x0000e8c5     0x1ade CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- .debug_info    0x000103a3     0x424e CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
- .debug_info    0x000145f1      0xace CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj
- .debug_info    0x000150bf     0x9492 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
- .debug_info    0x0001e551      0xe73 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
- .debug_info    0x0001f3c4      0x17d CMakeFiles/Template.elf.dir/Myapp/Src/delay.c.obj
- .debug_info    0x0001f541      0x359 CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj
- .debug_info    0x0001f89a      0x1aa D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cmplx_mag_f32.o)
- .debug_info    0x0001fa44      0x48c D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_f32.o)
- .debug_info    0x0001fed0      0x341 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_radix8_f32.o)
- .debug_info    0x00020211       0xf7 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_max_f32.o)
- .debug_info    0x00020308       0xf7 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_min_f32.o)
- .debug_info    0x000203ff      0x14d D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_rms_f32.o)
- .debug_info    0x0002054c      0x6a6 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_const_structs.o)
- .debug_info    0x00020bf2      0x13d D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_bitreversal2.o)
- .debug_info    0x00020d2f      0xa81 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_common_tables.o)
+ .debug_info    0x0000209c     0x101c CMakeFiles/Template.elf.dir/Core/Src/main.c.obj
+ .debug_info    0x000030b8      0x2a4 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_info    0x0000335c      0xa84 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_info    0x00003de0      0x37d CMakeFiles/Template.elf.dir/Core/Src/system_stm32f4xx.c.obj
+ .debug_info    0x0000415d     0x10bf CMakeFiles/Template.elf.dir/Core/Src/tim.c.obj
+ .debug_info    0x0000521c      0xcf5 CMakeFiles/Template.elf.dir/Core/Src/usart.c.obj
+ .debug_info    0x00005f11       0x22 CMakeFiles/Template.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj
+ .debug_info    0x00005f33      0x9f0 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_info    0x00006923      0xee1 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+ .debug_info    0x00007804     0x1098 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_info    0x0000889c      0xb3f CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+ .debug_info    0x000093db      0x7b0 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_info    0x00009b8b      0xb03 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_info    0x0000a68e      0xf65 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj
+ .debug_info    0x0000b5f3     0x3d5b CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_info    0x0000f34e     0x1ade CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_info    0x00010e2c     0x424e CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_info    0x0001507a      0xace CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj
+ .debug_info    0x00015b48     0x96b5 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+ .debug_info    0x0001f1fd     0x132f CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
+ .debug_info    0x0002052c      0x17d CMakeFiles/Template.elf.dir/Myapp/Src/delay.c.obj
+ .debug_info    0x000206a9      0x936 CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj
+ .debug_info    0x00020fdf      0x1aa D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cmplx_mag_f32.o)
+ .debug_info    0x00021189      0x48c D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_f32.o)
+ .debug_info    0x00021615      0x341 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_radix8_f32.o)
+ .debug_info    0x00021956       0xf7 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_max_f32.o)
+ .debug_info    0x00021a4d       0xf7 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_min_f32.o)
+ .debug_info    0x00021b44      0x14d D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_rms_f32.o)
+ .debug_info    0x00021c91      0x6a6 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_const_structs.o)
+ .debug_info    0x00022337      0x13d D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_bitreversal2.o)
+ .debug_info    0x00022474      0xa81 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_common_tables.o)
 
-.debug_abbrev   0x00000000     0x37c4
+.debug_abbrev   0x00000000     0x38cf
  .debug_abbrev  0x00000000      0x1db CMakeFiles/Template.elf.dir/Core/Src/adc.c.obj
  .debug_abbrev  0x000001db      0x126 CMakeFiles/Template.elf.dir/Core/Src/dma.c.obj
  .debug_abbrev  0x00000301      0x1da CMakeFiles/Template.elf.dir/Core/Src/fsmc.c.obj
  .debug_abbrev  0x000004db      0x14e CMakeFiles/Template.elf.dir/Core/Src/gpio.c.obj
  .debug_abbrev  0x00000629      0x278 CMakeFiles/Template.elf.dir/Core/Src/main.c.obj
  .debug_abbrev  0x000008a1       0xd1 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_abbrev  0x00000972      0x16e CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_abbrev  0x00000ae0      0x119 CMakeFiles/Template.elf.dir/Core/Src/system_stm32f4xx.c.obj
- .debug_abbrev  0x00000bf9      0x1c5 CMakeFiles/Template.elf.dir/Core/Src/tim.c.obj
- .debug_abbrev  0x00000dbe      0x1f6 CMakeFiles/Template.elf.dir/Core/Src/usart.c.obj
- .debug_abbrev  0x00000fb4       0x12 CMakeFiles/Template.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj
- .debug_abbrev  0x00000fc6      0x206 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_abbrev  0x000011cc      0x23a CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
- .debug_abbrev  0x00001406      0x36a CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_abbrev  0x00001770      0x2c2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
- .debug_abbrev  0x00001a32      0x1ef CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_abbrev  0x00001c21      0x28a CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_abbrev  0x00001eab      0x200 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj
- .debug_abbrev  0x000020ab      0x22b CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .debug_abbrev  0x000022d6      0x241 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- .debug_abbrev  0x00002517      0x2fd CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
- .debug_abbrev  0x00002814      0x19b CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj
- .debug_abbrev  0x000029af      0x350 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
- .debug_abbrev  0x00002cff      0x240 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
- .debug_abbrev  0x00002f3f      0x104 CMakeFiles/Template.elf.dir/Myapp/Src/delay.c.obj
- .debug_abbrev  0x00003043      0x1af CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj
- .debug_abbrev  0x000031f2       0xda D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cmplx_mag_f32.o)
- .debug_abbrev  0x000032cc       0xfc D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_f32.o)
- .debug_abbrev  0x000033c8       0x87 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_radix8_f32.o)
- .debug_abbrev  0x0000344f       0x87 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_max_f32.o)
- .debug_abbrev  0x000034d6       0x87 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_min_f32.o)
- .debug_abbrev  0x0000355d       0xd8 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_rms_f32.o)
- .debug_abbrev  0x00003635       0x7f D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_const_structs.o)
- .debug_abbrev  0x000036b4       0x7a D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_bitreversal2.o)
- .debug_abbrev  0x0000372e       0x96 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_common_tables.o)
+ .debug_abbrev  0x00000972      0x1af CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_abbrev  0x00000b21      0x119 CMakeFiles/Template.elf.dir/Core/Src/system_stm32f4xx.c.obj
+ .debug_abbrev  0x00000c3a      0x1ef CMakeFiles/Template.elf.dir/Core/Src/tim.c.obj
+ .debug_abbrev  0x00000e29      0x1f6 CMakeFiles/Template.elf.dir/Core/Src/usart.c.obj
+ .debug_abbrev  0x0000101f       0x12 CMakeFiles/Template.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj
+ .debug_abbrev  0x00001031      0x206 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_abbrev  0x00001237      0x23a CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+ .debug_abbrev  0x00001471      0x36a CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_abbrev  0x000017db      0x2c2 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+ .debug_abbrev  0x00001a9d      0x1ef CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_abbrev  0x00001c8c      0x28a CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_abbrev  0x00001f16      0x200 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj
+ .debug_abbrev  0x00002116      0x22b CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_abbrev  0x00002341      0x241 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_abbrev  0x00002582      0x2fd CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_abbrev  0x0000287f      0x19b CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj
+ .debug_abbrev  0x00002a1a      0x350 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+ .debug_abbrev  0x00002d6a      0x26e CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
+ .debug_abbrev  0x00002fd8      0x104 CMakeFiles/Template.elf.dir/Myapp/Src/delay.c.obj
+ .debug_abbrev  0x000030dc      0x221 CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj
+ .debug_abbrev  0x000032fd       0xda D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cmplx_mag_f32.o)
+ .debug_abbrev  0x000033d7       0xfc D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_f32.o)
+ .debug_abbrev  0x000034d3       0x87 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_radix8_f32.o)
+ .debug_abbrev  0x0000355a       0x87 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_max_f32.o)
+ .debug_abbrev  0x000035e1       0x87 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_min_f32.o)
+ .debug_abbrev  0x00003668       0xd8 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_rms_f32.o)
+ .debug_abbrev  0x00003740       0x7f D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_const_structs.o)
+ .debug_abbrev  0x000037bf       0x7a D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_bitreversal2.o)
+ .debug_abbrev  0x00003839       0x96 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_common_tables.o)
 
-.debug_loc      0x00000000    0x11d75
+.debug_loc      0x00000000    0x11ff2
  .debug_loc     0x00000000       0x71 CMakeFiles/Template.elf.dir/Core/Src/adc.c.obj
  .debug_loc     0x00000071       0x4a CMakeFiles/Template.elf.dir/Core/Src/fsmc.c.obj
  .debug_loc     0x000000bb       0xcd CMakeFiles/Template.elf.dir/Core/Src/main.c.obj
  .debug_loc     0x00000188      0x158 CMakeFiles/Template.elf.dir/Core/Src/system_stm32f4xx.c.obj
- .debug_loc     0x000002e0       0x71 CMakeFiles/Template.elf.dir/Core/Src/usart.c.obj
- .debug_loc     0x00000351      0x141 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_loc     0x00000492      0xba1 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
- .debug_loc     0x00001033      0x744 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_loc     0x00001777      0xbf9 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
- .debug_loc     0x00002370      0x520 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_loc     0x00002890      0x58c CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_loc     0x00002e1c      0xe92 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj
- .debug_loc     0x00003cae     0x506c CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .debug_loc     0x00008d1a     0x1cd7 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- .debug_loc     0x0000a9f1     0x49ab CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
- .debug_loc     0x0000f39c      0x5d9 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj
- .debug_loc     0x0000f975     0x18a1 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
- .debug_loc     0x00011216      0x116 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
- .debug_loc     0x0001132c       0x6d CMakeFiles/Template.elf.dir/Myapp/Src/delay.c.obj
- .debug_loc     0x00011399       0x75 CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj
- .debug_loc     0x0001140e       0xa9 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cmplx_mag_f32.o)
- .debug_loc     0x000114b7      0x38b D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_f32.o)
- .debug_loc     0x00011842      0x1c0 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_radix8_f32.o)
- .debug_loc     0x00011a02      0x11e D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_max_f32.o)
- .debug_loc     0x00011b20      0x11e D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_min_f32.o)
- .debug_loc     0x00011c3e       0xd5 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_rms_f32.o)
- .debug_loc     0x00011d13       0x62 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_bitreversal2.o)
+ .debug_loc     0x000002e0       0x84 CMakeFiles/Template.elf.dir/Core/Src/tim.c.obj
+ .debug_loc     0x00000364       0x71 CMakeFiles/Template.elf.dir/Core/Src/usart.c.obj
+ .debug_loc     0x000003d5      0x141 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_loc     0x00000516      0xba1 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+ .debug_loc     0x000010b7      0x744 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_loc     0x000017fb      0xbf9 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+ .debug_loc     0x000023f4      0x520 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_loc     0x00002914      0x58c CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_loc     0x00002ea0      0xe92 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj
+ .debug_loc     0x00003d32     0x506c CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_loc     0x00008d9e     0x1cd7 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_loc     0x0000aa75     0x49ab CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_loc     0x0000f420      0x5d9 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj
+ .debug_loc     0x0000f9f9     0x1a31 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+ .debug_loc     0x0001142a      0x17f CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
+ .debug_loc     0x000115a9       0x6d CMakeFiles/Template.elf.dir/Myapp/Src/delay.c.obj
+ .debug_loc     0x00011616       0x75 CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj
+ .debug_loc     0x0001168b       0xa9 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cmplx_mag_f32.o)
+ .debug_loc     0x00011734      0x38b D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_f32.o)
+ .debug_loc     0x00011abf      0x1c0 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_radix8_f32.o)
+ .debug_loc     0x00011c7f      0x11e D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_max_f32.o)
+ .debug_loc     0x00011d9d      0x11e D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_min_f32.o)
+ .debug_loc     0x00011ebb       0xd5 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_rms_f32.o)
+ .debug_loc     0x00011f90       0x62 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_bitreversal2.o)
 
-.debug_aranges  0x00000000     0x10b0
+.debug_aranges  0x00000000     0x10d0
  .debug_aranges
                 0x00000000       0x30 CMakeFiles/Template.elf.dir/Core/Src/adc.c.obj
  .debug_aranges
@@ -3561,115 +3607,115 @@ LOAD d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-n
  .debug_aranges
                 0x000000f0       0x20 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
  .debug_aranges
-                0x00000110       0x80 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x00000110       0x88 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
  .debug_aranges
-                0x00000190       0x28 CMakeFiles/Template.elf.dir/Core/Src/system_stm32f4xx.c.obj
+                0x00000198       0x28 CMakeFiles/Template.elf.dir/Core/Src/system_stm32f4xx.c.obj
  .debug_aranges
-                0x000001b8       0x30 CMakeFiles/Template.elf.dir/Core/Src/tim.c.obj
+                0x000001c0       0x38 CMakeFiles/Template.elf.dir/Core/Src/tim.c.obj
  .debug_aranges
-                0x000001e8       0x30 CMakeFiles/Template.elf.dir/Core/Src/usart.c.obj
+                0x000001f8       0x30 CMakeFiles/Template.elf.dir/Core/Src/usart.c.obj
  .debug_aranges
-                0x00000218       0x28 CMakeFiles/Template.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj
+                0x00000228       0x28 CMakeFiles/Template.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj
  .debug_aranges
-                0x00000240       0xf0 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x00000250       0xf0 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
  .debug_aranges
-                0x00000330       0xe8 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+                0x00000340       0xe8 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
  .debug_aranges
-                0x00000418       0xa8 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x00000428       0xa8 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .debug_aranges
-                0x000004c0       0x90 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+                0x000004d0       0x90 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .debug_aranges
-                0x00000550       0x58 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                0x00000560       0x58 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
  .debug_aranges
-                0x000005a8       0x88 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x000005b8       0x88 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
  .debug_aranges
-                0x00000630       0xb8 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj
+                0x00000640       0xb8 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj
  .debug_aranges
-                0x000006e8      0x3d0 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x000006f8      0x3d0 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .debug_aranges
-                0x00000ab8      0x168 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+                0x00000ac8      0x168 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
  .debug_aranges
-                0x00000c20      0x200 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x00000c30      0x200 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .debug_aranges
-                0x00000e20       0xa8 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj
+                0x00000e30       0xa8 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj
  .debug_aranges
-                0x00000ec8      0x130 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+                0x00000ed8      0x138 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
  .debug_aranges
-                0x00000ff8       0x28 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
+                0x00001010       0x30 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
  .debug_aranges
-                0x00001020       0x30 CMakeFiles/Template.elf.dir/Myapp/Src/delay.c.obj
+                0x00001040       0x30 CMakeFiles/Template.elf.dir/Myapp/Src/delay.c.obj
  .debug_aranges
-                0x00001050       0x60 CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj
+                0x00001070       0x60 CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj
 
-.debug_ranges   0x00000000      0xff8
+.debug_ranges   0x00000000     0x1030
  .debug_ranges  0x00000000       0x20 CMakeFiles/Template.elf.dir/Core/Src/adc.c.obj
  .debug_ranges  0x00000020       0x10 CMakeFiles/Template.elf.dir/Core/Src/dma.c.obj
  .debug_ranges  0x00000030       0x30 CMakeFiles/Template.elf.dir/Core/Src/fsmc.c.obj
  .debug_ranges  0x00000060       0x10 CMakeFiles/Template.elf.dir/Core/Src/gpio.c.obj
  .debug_ranges  0x00000070       0x30 CMakeFiles/Template.elf.dir/Core/Src/main.c.obj
  .debug_ranges  0x000000a0       0x10 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_ranges  0x000000b0       0x70 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_ranges  0x00000120       0x18 CMakeFiles/Template.elf.dir/Core/Src/system_stm32f4xx.c.obj
- .debug_ranges  0x00000138       0x20 CMakeFiles/Template.elf.dir/Core/Src/tim.c.obj
- .debug_ranges  0x00000158       0x20 CMakeFiles/Template.elf.dir/Core/Src/usart.c.obj
- .debug_ranges  0x00000178       0x20 CMakeFiles/Template.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj
- .debug_ranges  0x00000198       0xe0 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_ranges  0x00000278       0xd8 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
- .debug_ranges  0x00000350       0xf8 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_ranges  0x00000448       0x80 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
- .debug_ranges  0x000004c8       0x48 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_ranges  0x00000510       0x90 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_ranges  0x000005a0       0xa8 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj
- .debug_ranges  0x00000648      0x3c0 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .debug_ranges  0x00000a08      0x158 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- .debug_ranges  0x00000b60      0x208 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
- .debug_ranges  0x00000d68       0x98 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj
- .debug_ranges  0x00000e00      0x120 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
- .debug_ranges  0x00000f20       0x18 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
- .debug_ranges  0x00000f38       0x20 CMakeFiles/Template.elf.dir/Myapp/Src/delay.c.obj
- .debug_ranges  0x00000f58       0x50 CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj
- .debug_ranges  0x00000fa8       0x20 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_f32.o)
- .debug_ranges  0x00000fc8       0x18 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_rms_f32.o)
- .debug_ranges  0x00000fe0       0x18 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_bitreversal2.o)
+ .debug_ranges  0x000000b0       0x78 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_ranges  0x00000128       0x18 CMakeFiles/Template.elf.dir/Core/Src/system_stm32f4xx.c.obj
+ .debug_ranges  0x00000140       0x28 CMakeFiles/Template.elf.dir/Core/Src/tim.c.obj
+ .debug_ranges  0x00000168       0x20 CMakeFiles/Template.elf.dir/Core/Src/usart.c.obj
+ .debug_ranges  0x00000188       0x20 CMakeFiles/Template.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj
+ .debug_ranges  0x000001a8       0xe0 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_ranges  0x00000288       0xd8 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+ .debug_ranges  0x00000360       0xf8 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_ranges  0x00000458       0x80 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+ .debug_ranges  0x000004d8       0x48 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_ranges  0x00000520       0x90 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_ranges  0x000005b0       0xa8 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj
+ .debug_ranges  0x00000658      0x3c0 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_ranges  0x00000a18      0x158 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_ranges  0x00000b70      0x208 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_ranges  0x00000d78       0x98 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj
+ .debug_ranges  0x00000e10      0x128 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+ .debug_ranges  0x00000f38       0x38 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
+ .debug_ranges  0x00000f70       0x20 CMakeFiles/Template.elf.dir/Myapp/Src/delay.c.obj
+ .debug_ranges  0x00000f90       0x50 CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj
+ .debug_ranges  0x00000fe0       0x20 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_f32.o)
+ .debug_ranges  0x00001000       0x18 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_rms_f32.o)
+ .debug_ranges  0x00001018       0x18 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_bitreversal2.o)
 
-.debug_line     0x00000000    0x15b5b
+.debug_line     0x00000000    0x15f1f
  .debug_line    0x00000000      0x3e9 CMakeFiles/Template.elf.dir/Core/Src/adc.c.obj
  .debug_line    0x000003e9      0x1e3 CMakeFiles/Template.elf.dir/Core/Src/dma.c.obj
  .debug_line    0x000005cc      0x4b2 CMakeFiles/Template.elf.dir/Core/Src/fsmc.c.obj
  .debug_line    0x00000a7e      0x26b CMakeFiles/Template.elf.dir/Core/Src/gpio.c.obj
- .debug_line    0x00000ce9      0x4f5 CMakeFiles/Template.elf.dir/Core/Src/main.c.obj
- .debug_line    0x000011de      0x19a CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_line    0x00001378      0x377 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_line    0x000016ef      0x263 CMakeFiles/Template.elf.dir/Core/Src/system_stm32f4xx.c.obj
- .debug_line    0x00001952      0x32a CMakeFiles/Template.elf.dir/Core/Src/tim.c.obj
- .debug_line    0x00001c7c      0x423 CMakeFiles/Template.elf.dir/Core/Src/usart.c.obj
- .debug_line    0x0000209f       0xa1 CMakeFiles/Template.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj
- .debug_line    0x00002140      0x5dd CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_line    0x0000271d     0x110d CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
- .debug_line    0x0000382a      0x7f0 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_line    0x0000401a      0xe81 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
- .debug_line    0x00004e9b      0x73d CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_line    0x000055d8      0xb6c CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_line    0x00006144      0xb1e CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj
- .debug_line    0x00006c62     0x4afe CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .debug_line    0x0000b760     0x1d22 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- .debug_line    0x0000d482     0x4666 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
- .debug_line    0x00011ae8      0x682 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj
- .debug_line    0x0001216a     0x1a73 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
- .debug_line    0x00013bdd      0x589 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
- .debug_line    0x00014166      0x227 CMakeFiles/Template.elf.dir/Myapp/Src/delay.c.obj
- .debug_line    0x0001438d      0x373 CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj
- .debug_line    0x00014700      0x1aa D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cmplx_mag_f32.o)
- .debug_line    0x000148aa      0x629 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_f32.o)
- .debug_line    0x00014ed3      0x5de D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_radix8_f32.o)
- .debug_line    0x000154b1      0x16c D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_max_f32.o)
- .debug_line    0x0001561d      0x16c D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_min_f32.o)
- .debug_line    0x00015789      0x16c D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_rms_f32.o)
- .debug_line    0x000158f5       0x9e D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_const_structs.o)
- .debug_line    0x00015993      0x12a D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_bitreversal2.o)
- .debug_line    0x00015abd       0x9e D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_common_tables.o)
+ .debug_line    0x00000ce9      0x4f8 CMakeFiles/Template.elf.dir/Core/Src/main.c.obj
+ .debug_line    0x000011e1      0x19a CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_line    0x0000137b      0x3a7 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_line    0x00001722      0x263 CMakeFiles/Template.elf.dir/Core/Src/system_stm32f4xx.c.obj
+ .debug_line    0x00001985      0x4eb CMakeFiles/Template.elf.dir/Core/Src/tim.c.obj
+ .debug_line    0x00001e70      0x423 CMakeFiles/Template.elf.dir/Core/Src/usart.c.obj
+ .debug_line    0x00002293       0xa1 CMakeFiles/Template.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj
+ .debug_line    0x00002334      0x5dd CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_line    0x00002911     0x110d CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+ .debug_line    0x00003a1e      0x7f0 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_line    0x0000420e      0xe81 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+ .debug_line    0x0000508f      0x73d CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_line    0x000057cc      0xb6c CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_line    0x00006338      0xb1e CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj
+ .debug_line    0x00006e56     0x4afe CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_line    0x0000b954     0x1d22 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_line    0x0000d676     0x4666 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_line    0x00011cdc      0x682 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj
+ .debug_line    0x0001235e     0x1b39 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+ .debug_line    0x00013e97      0x61f CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
+ .debug_line    0x000144b6      0x227 CMakeFiles/Template.elf.dir/Myapp/Src/delay.c.obj
+ .debug_line    0x000146dd      0x3e7 CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj
+ .debug_line    0x00014ac4      0x1aa D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cmplx_mag_f32.o)
+ .debug_line    0x00014c6e      0x629 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_f32.o)
+ .debug_line    0x00015297      0x5de D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_radix8_f32.o)
+ .debug_line    0x00015875      0x16c D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_max_f32.o)
+ .debug_line    0x000159e1      0x16c D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_min_f32.o)
+ .debug_line    0x00015b4d      0x16c D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_rms_f32.o)
+ .debug_line    0x00015cb9       0x9e D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_const_structs.o)
+ .debug_line    0x00015d57      0x12a D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_bitreversal2.o)
+ .debug_line    0x00015e81       0x9e D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_common_tables.o)
 
-.debug_str      0x00000000     0x6369
+.debug_str      0x00000000     0x63f1
  .debug_str     0x00000000      0x778 CMakeFiles/Template.elf.dir/Core/Src/adc.c.obj
                                 0x825 (size before relaxing)
  .debug_str     0x00000778      0x54d CMakeFiles/Template.elf.dir/Core/Src/dma.c.obj
@@ -3678,67 +3724,67 @@ LOAD d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-n
                                 0x8e0 (size before relaxing)
  .debug_str     0x00000fce       0x67 CMakeFiles/Template.elf.dir/Core/Src/gpio.c.obj
                                 0x390 (size before relaxing)
- .debug_str     0x00001035      0x6bb CMakeFiles/Template.elf.dir/Core/Src/main.c.obj
-                                0xc8f (size before relaxing)
- .debug_str     0x000016f0       0x45 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_str     0x00001035      0x6e2 CMakeFiles/Template.elf.dir/Core/Src/main.c.obj
+                                0xcb6 (size before relaxing)
+ .debug_str     0x00001717       0x45 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
                                 0x2df (size before relaxing)
- .debug_str     0x00001735      0x16f CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                                0x75e (size before relaxing)
- .debug_str     0x000018a4       0xa0 CMakeFiles/Template.elf.dir/Core/Src/system_stm32f4xx.c.obj
+ .debug_str     0x0000175c      0x195 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                                0xa5f (size before relaxing)
+ .debug_str     0x000018f1       0xa0 CMakeFiles/Template.elf.dir/Core/Src/system_stm32f4xx.c.obj
                                 0x345 (size before relaxing)
- .debug_str     0x00001944      0x146 CMakeFiles/Template.elf.dir/Core/Src/tim.c.obj
-                                0x963 (size before relaxing)
- .debug_str     0x00001a8a       0x7e CMakeFiles/Template.elf.dir/Core/Src/usart.c.obj
+ .debug_str     0x00001991      0x227 CMakeFiles/Template.elf.dir/Core/Src/tim.c.obj
+                               0x1043 (size before relaxing)
+ .debug_str     0x00001bb8       0x6a CMakeFiles/Template.elf.dir/Core/Src/usart.c.obj
                                 0xd84 (size before relaxing)
- .debug_str     0x00001b08       0x4f CMakeFiles/Template.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj
+ .debug_str     0x00001c22       0x4f CMakeFiles/Template.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj
                                  0x7d (size before relaxing)
- .debug_str     0x00001b57      0x361 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_str     0x00001c71      0x361 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
                                 0xb7e (size before relaxing)
- .debug_str     0x00001eb8      0x2e9 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+ .debug_str     0x00001fd2      0x2e9 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
                                 0x986 (size before relaxing)
- .debug_str     0x000021a1      0x497 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_str     0x000022bb      0x497 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
                                 0xc50 (size before relaxing)
- .debug_str     0x00002638      0x2df CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+ .debug_str     0x00002752      0x2df CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
                                 0x79a (size before relaxing)
- .debug_str     0x00002917      0x13c CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_str     0x00002a31      0x13c CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
                                 0x504 (size before relaxing)
- .debug_str     0x00002a53      0x1bd CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_str     0x00002b6d      0x1bd CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
                                 0x72a (size before relaxing)
- .debug_str     0x00002c10      0x2ac CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj
+ .debug_str     0x00002d2a      0x2ac CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj
                                 0x997 (size before relaxing)
- .debug_str     0x00002ebc      0xe52 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_str     0x00002fd6      0xd68 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
                                0x16dd (size before relaxing)
- .debug_str     0x00003d0e      0x53d CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_str     0x00003d3e      0x53d CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
                                 0xede (size before relaxing)
- .debug_str     0x0000424b      0x5f1 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_str     0x0000427b      0x5f1 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
                                 0xd7d (size before relaxing)
- .debug_str     0x0000483c      0x2d7 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj
+ .debug_str     0x0000486c      0x2d7 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj
                                 0x75d (size before relaxing)
- .debug_str     0x00004b13      0x3b4 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
-                                0xc1d (size before relaxing)
- .debug_str     0x00004ec7      0x1d1 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
-                                0x7e9 (size before relaxing)
- .debug_str     0x00005098       0x49 CMakeFiles/Template.elf.dir/Myapp/Src/delay.c.obj
+ .debug_str     0x00004b43      0x406 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+                                0xc75 (size before relaxing)
+ .debug_str     0x00004f49      0x1d7 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
+                                0xb1f (size before relaxing)
+ .debug_str     0x00005120       0x49 CMakeFiles/Template.elf.dir/Myapp/Src/delay.c.obj
                                 0x22c (size before relaxing)
- .debug_str     0x000050e1       0xd4 CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj
-                                0x314 (size before relaxing)
- .debug_str     0x000051b5      0x179 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cmplx_mag_f32.o)
+ .debug_str     0x00005169       0xd4 CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj
+                                0x856 (size before relaxing)
+ .debug_str     0x0000523d      0x179 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cmplx_mag_f32.o)
                                 0x1c0 (size before relaxing)
- .debug_str     0x0000532e      0x13d D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_f32.o)
+ .debug_str     0x000053b6      0x13d D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_f32.o)
                                 0x258 (size before relaxing)
- .debug_str     0x0000546b       0xf6 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_radix8_f32.o)
+ .debug_str     0x000054f3       0xf6 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_radix8_f32.o)
                                 0x1df (size before relaxing)
- .debug_str     0x00005561       0x58 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_max_f32.o)
+ .debug_str     0x000055e9       0x58 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_max_f32.o)
                                 0x112 (size before relaxing)
- .debug_str     0x000055b9       0x36 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_min_f32.o)
+ .debug_str     0x00005641       0x36 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_min_f32.o)
                                 0x112 (size before relaxing)
- .debug_str     0x000055ef       0x33 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_rms_f32.o)
+ .debug_str     0x00005677       0x33 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_rms_f32.o)
                                 0x1af (size before relaxing)
- .debug_str     0x00005622      0x5fb D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_const_structs.o)
+ .debug_str     0x000056aa      0x5fb D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_const_structs.o)
                                 0x733 (size before relaxing)
- .debug_str     0x00005c1d       0x74 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_bitreversal2.o)
+ .debug_str     0x00005ca5       0x74 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_bitreversal2.o)
                                 0x11d (size before relaxing)
- .debug_str     0x00005c91      0x6d8 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_common_tables.o)
+ .debug_str     0x00005d19      0x6d8 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_common_tables.o)
                                 0x7ac (size before relaxing)
 
 .comment        0x00000000       0x80
@@ -3800,58 +3846,58 @@ LOAD d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-n
  .note.GNU-stack
                 0x00000000        0x0 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_common_tables.o)
 
-.debug_frame    0x00000000     0x3338
+.debug_frame    0x00000000     0x33d0
  .debug_frame   0x00000000       0x6c CMakeFiles/Template.elf.dir/Core/Src/adc.c.obj
  .debug_frame   0x0000006c       0x30 CMakeFiles/Template.elf.dir/Core/Src/dma.c.obj
  .debug_frame   0x0000009c       0xa4 CMakeFiles/Template.elf.dir/Core/Src/fsmc.c.obj
  .debug_frame   0x00000140       0x34 CMakeFiles/Template.elf.dir/Core/Src/gpio.c.obj
  .debug_frame   0x00000174       0x94 CMakeFiles/Template.elf.dir/Core/Src/main.c.obj
  .debug_frame   0x00000208       0x28 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_frame   0x00000230      0x108 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_frame   0x00000338       0x30 CMakeFiles/Template.elf.dir/Core/Src/system_stm32f4xx.c.obj
- .debug_frame   0x00000368       0x58 CMakeFiles/Template.elf.dir/Core/Src/tim.c.obj
- .debug_frame   0x000003c0       0x64 CMakeFiles/Template.elf.dir/Core/Src/usart.c.obj
- .debug_frame   0x00000424      0x1ec CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_frame   0x00000610      0x268 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
- .debug_frame   0x00000878      0x148 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_frame   0x000009c0      0x188 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
- .debug_frame   0x00000b48       0xd8 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_frame   0x00000c20      0x16c CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_frame   0x00000d8c      0x1f8 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj
- .debug_frame   0x00000f84      0xb04 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .debug_frame   0x00001a88      0x40c CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- .debug_frame   0x00001e94      0x5cc CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
- .debug_frame   0x00002460      0x170 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj
- .debug_frame   0x000025d0      0x438 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
- .debug_frame   0x00002a08       0x60 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
- .debug_frame   0x00002a68       0x50 CMakeFiles/Template.elf.dir/Myapp/Src/delay.c.obj
- .debug_frame   0x00002ab8       0xb0 CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj
- .debug_frame   0x00002b68       0x34 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cmplx_mag_f32.o)
- .debug_frame   0x00002b9c       0x8c D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_f32.o)
- .debug_frame   0x00002c28       0x3c D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_radix8_f32.o)
- .debug_frame   0x00002c64       0x38 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_max_f32.o)
- .debug_frame   0x00002c9c       0x38 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_min_f32.o)
- .debug_frame   0x00002cd4       0x38 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_rms_f32.o)
- .debug_frame   0x00002d0c       0x48 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_bitreversal2.o)
- .debug_frame   0x00002d54       0xac d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubdf3.o)
- .debug_frame   0x00002e00       0x50 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldivdf3.o)
- .debug_frame   0x00002e50       0xc4 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_cmpdf2.o)
- .debug_frame   0x00002f14       0x24 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_fixunsdfsi.o)
- .debug_frame   0x00002f38       0x24 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_truncdfsf2.o)
- .debug_frame   0x00002f5c       0x4c d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubsf3.o)
- .debug_frame   0x00002fa8       0x38 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldivsf3.o)
- .debug_frame   0x00002fe0       0xc8 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_cmpsf2.o)
- .debug_frame   0x000030a8       0x24 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_fixunssfsi.o)
- .debug_frame   0x000030cc       0x2c d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
- .debug_frame   0x000030f8       0x34 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
- .debug_frame   0x0000312c       0x20 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-errno.o)
- .debug_frame   0x0000314c       0x2c d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
- .debug_frame   0x00003178       0x2c d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
- .debug_frame   0x000031a4       0x5c d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
- .debug_frame   0x00003200       0x20 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
- .debug_frame   0x00003220       0x34 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
- .debug_frame   0x00003254       0xb0 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
- .debug_frame   0x00003304       0x34 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
+ .debug_frame   0x00000230      0x120 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_frame   0x00000350       0x30 CMakeFiles/Template.elf.dir/Core/Src/system_stm32f4xx.c.obj
+ .debug_frame   0x00000380       0x88 CMakeFiles/Template.elf.dir/Core/Src/tim.c.obj
+ .debug_frame   0x00000408       0x64 CMakeFiles/Template.elf.dir/Core/Src/usart.c.obj
+ .debug_frame   0x0000046c      0x1ec CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_frame   0x00000658      0x268 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+ .debug_frame   0x000008c0      0x148 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_frame   0x00000a08      0x188 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+ .debug_frame   0x00000b90       0xd8 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_frame   0x00000c68      0x16c CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_frame   0x00000dd4      0x1f8 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj
+ .debug_frame   0x00000fcc      0xb04 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_frame   0x00001ad0      0x40c CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_frame   0x00001edc      0x5cc CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_frame   0x000024a8      0x170 CMakeFiles/Template.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj
+ .debug_frame   0x00002618      0x464 CMakeFiles/Template.elf.dir/LCD/lcd.c.obj
+ .debug_frame   0x00002a7c       0x84 CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
+ .debug_frame   0x00002b00       0x50 CMakeFiles/Template.elf.dir/Myapp/Src/delay.c.obj
+ .debug_frame   0x00002b50       0xb0 CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj
+ .debug_frame   0x00002c00       0x34 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cmplx_mag_f32.o)
+ .debug_frame   0x00002c34       0x8c D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_f32.o)
+ .debug_frame   0x00002cc0       0x3c D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_cfft_radix8_f32.o)
+ .debug_frame   0x00002cfc       0x38 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_max_f32.o)
+ .debug_frame   0x00002d34       0x38 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_min_f32.o)
+ .debug_frame   0x00002d6c       0x38 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_rms_f32.o)
+ .debug_frame   0x00002da4       0x48 D:\code\clion_code\Template\Myapp\Src\arm_cortexM4l_math.lib(arm_bitreversal2.o)
+ .debug_frame   0x00002dec       0xac d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x00002e98       0x50 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldivdf3.o)
+ .debug_frame   0x00002ee8       0xc4 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_cmpdf2.o)
+ .debug_frame   0x00002fac       0x24 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_fixunsdfsi.o)
+ .debug_frame   0x00002fd0       0x24 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_truncdfsf2.o)
+ .debug_frame   0x00002ff4       0x4c d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubsf3.o)
+ .debug_frame   0x00003040       0x38 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_muldivsf3.o)
+ .debug_frame   0x00003078       0xc8 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_cmpsf2.o)
+ .debug_frame   0x00003140       0x24 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_fixunssfsi.o)
+ .debug_frame   0x00003164       0x2c d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x00003190       0x34 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x000031c4       0x20 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-errno.o)
+ .debug_frame   0x000031e4       0x2c d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
+ .debug_frame   0x00003210       0x2c d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
+ .debug_frame   0x0000323c       0x5c d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00003298       0x20 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
+ .debug_frame   0x000032b8       0x34 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
+ .debug_frame   0x000032ec       0xb0 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+ .debug_frame   0x0000339c       0x34 d:/laboratory/clion/gcc/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
 
 .debug_macinfo  0x00000000        0x9
  .debug_macinfo

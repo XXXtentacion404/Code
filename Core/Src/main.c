@@ -29,7 +29,7 @@
 /* USER CODE BEGIN Includes */
 #include "stdio.h"
 #include "lcd.h"
-#include "vofa+.h"
+
 #include "scheduler.h"
 #define FFT_LENGTH 1024
 /* USER CODE END Includes */
@@ -114,13 +114,15 @@ int main(void)
   MX_FSMC_Init();
   MX_USART1_UART_Init();
   MX_TIM2_Init();
+  MX_TIM8_Init();
   /* USER CODE BEGIN 2 */
     lcd_init();
     lcd_display_dir(1);
     HAL_Delay(500);
     display();
     HAL_TIM_Base_Start(&htim2);
-
+    HAL_TIM_IC_Start_IT(&htim8,TIM_CHANNEL_1);
+    HAL_TIM_IC_Start_IT(&htim8,TIM_CHANNEL_2);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -131,9 +133,8 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
          Scheduler_Run();
-     //HAL_UART_Transmit_DMA(&huart1, (uint8_t *)Senbuff, sizeof(Senbuff));
 
-     // HAL_Delay(1000);
+
   }
   /* USER CODE END 3 */
 }

@@ -2,9 +2,11 @@
 
 static void Loop_1000Hz(void)	//1msִ��һ��
 {
-    clear_point(1);
+    clear_point();
     FFT();
     HAL_GPIO_TogglePin(GPIOF,GPIO_PIN_9);
+    HAL_TIM_IC_CaptureCallback(&htim8);
+
 }
 
 

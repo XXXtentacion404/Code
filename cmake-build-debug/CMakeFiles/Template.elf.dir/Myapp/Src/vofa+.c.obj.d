@@ -88,4 +88,5 @@ CMakeFiles/Template.elf.dir/Myapp/Src/vofa+.c.obj: \
  D:\code\clion_code\Template\Myapp\Inc/arm_const_structs.h \
  D:\code\clion_code\Template\Myapp\Inc/arm_common_tables.h \
  D:\code\clion_code\Template\Myapp\Inc/FFT_Draw.h \
+ D:\code\clion_code\Template\Core\Inc/tim.h \
  D:\code\clion_code\Template\Core\Inc/usart.h

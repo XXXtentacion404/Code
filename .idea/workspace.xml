@@ -21,15 +21,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d770533-f00f-4bd8-8e4b-8681dbd2c230" name="变更" comment="second">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Inc/stm32f4xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32f4xx_it.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Inc/tim.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/tim.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/tim.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/tim.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LCD/lcd.c" beforeDir="false" afterPath="$PROJECT_DIR$/LCD/lcd.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LCD/lcd.h" beforeDir="false" afterPath="$PROJECT_DIR$/LCD/lcd.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Myapp/Inc/All_head.h" beforeDir="false" afterPath="$PROJECT_DIR$/Myapp/Inc/All_head.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Myapp/Inc/FFT_Draw.h" beforeDir="false" afterPath="$PROJECT_DIR$/Myapp/Inc/FFT_Draw.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Myapp/Inc/arm_math.h" beforeDir="false" afterPath="$PROJECT_DIR$/Myapp/Inc/arm_math.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Myapp/Src/FFT_Draw.c" beforeDir="false" afterPath="$PROJECT_DIR$/Myapp/Src/FFT_Draw.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Myapp/Src/scheduler.c" beforeDir="false" afterPath="$PROJECT_DIR$/Myapp/Src/scheduler.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/Template.ioc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-04-11T13-17-20-0745.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.elf.dir/Core/Src/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.elf.dir/Core/Src/main.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.elf.dir/Core/Src/main.c.obj.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_it.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.elf.dir/Core/Src/tim.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.elf.dir/Core/Src/tim.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.elf.dir/LCD/lcd.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.elf.dir/LCD/lcd.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.elf.dir/Myapp/Src/vofa+.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.elf.dir/Myapp/Src/vofa+.c.obj.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.elf.dir/compiler_depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.elf.dir/compiler_depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.elf.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.elf.dir/compiler_depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Template.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Template.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Template.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Template.elf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Template.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Template.hex" afterDir="false" />
@@ -141,6 +163,13 @@
       <workItem from="1681363440877" duration="4116000" />
       <workItem from="1681469588645" duration="3339000" />
       <workItem from="1681553390993" duration="7363000" />
+      <workItem from="1681614358530" duration="5862000" />
+      <workItem from="1681636893369" duration="8515000" />
+      <workItem from="1681699782431" duration="2330000" />
+      <workItem from="1681823043593" duration="3000" />
+      <workItem from="1681824646427" duration="1537000" />
+      <workItem from="1681885731002" duration="6000" />
+      <workItem from="1681885791522" duration="451000" />
     </task>
     <task id="LOCAL-00001" summary="second">
       <created>1680333775193</created>

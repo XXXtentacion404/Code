@@ -5,6 +5,7 @@
 #define TEMPLATE_ADC_H
 
 #endif //TEMPLATE_ADC_H
-void clear_point(uint16_t mode);
+void clear_point();
 void FFT();
 void GetPowerMag(void);
+void draw_wave(uint16_t start_x, uint16_t start_y, uint16_t end_x, uint16_t end_y);

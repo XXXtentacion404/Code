@@ -265,7 +265,6 @@ CMakeFiles/Template.elf.dir/Core/Src/main.c.obj
  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/stdlib.h
  D:/LABORATORY/clion/GCC/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/alloca.h
  D:/code/clion_code/Template/LCD/sys.h
- D:/code/clion_code/Template/Myapp/Inc/vofa+.h
  D:/code/clion_code/Template/Myapp/Inc/scheduler.h
 
 CMakeFiles/Template.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
@@ -1597,6 +1596,7 @@ CMakeFiles/Template.elf.dir/Myapp/Src/FFT_Draw.c.obj
  D:/code/clion_code/Template/Myapp/Inc/arm_const_structs.h
  D:/code/clion_code/Template/Myapp/Inc/arm_common_tables.h
  D:/code/clion_code/Template/Myapp/Inc/FFT_Draw.h
+ D:/code/clion_code/Template/Core/Inc/tim.h
 
 CMakeFiles/Template.elf.dir/Myapp/Src/delay.c.obj
  D:/code/clion_code/Template/Myapp/Src/delay.c
@@ -1812,6 +1812,7 @@ CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj
  D:/code/clion_code/Template/Myapp/Inc/arm_const_structs.h
  D:/code/clion_code/Template/Myapp/Inc/arm_common_tables.h
  D:/code/clion_code/Template/Myapp/Inc/FFT_Draw.h
+ D:/code/clion_code/Template/Core/Inc/tim.h
 
 CMakeFiles/Template.elf.dir/Myapp/Src/sys.c.obj
  D:/code/clion_code/Template/Myapp/Src/sys.c
@@ -1995,5 +1996,6 @@ CMakeFiles/Template.elf.dir/Myapp/Src/vofa+.c.obj
  D:/code/clion_code/Template/Myapp/Inc/arm_const_structs.h
  D:/code/clion_code/Template/Myapp/Inc/arm_common_tables.h
  D:/code/clion_code/Template/Myapp/Inc/FFT_Draw.h
+ D:/code/clion_code/Template/Core/Inc/tim.h
  D:/code/clion_code/Template/Core/Inc/usart.h
 

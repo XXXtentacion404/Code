@@ -78,5 +78,4 @@ CMakeFiles/Template.elf.dir/Core/Src/main.c.obj: \
  d:\laboratory\clion\gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\stdlib.h \
  d:\laboratory\clion\gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\alloca.h \
  D:\code\clion_code\Template\LCD/sys.h \
- D:\code\clion_code\Template\Myapp\Inc/vofa+.h \
  D:\code\clion_code\Template\Myapp\Inc/scheduler.h

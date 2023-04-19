@@ -86,4 +86,5 @@ CMakeFiles/Template.elf.dir/Myapp/Src/scheduler.c.obj: \
  d:\laboratory\clion\gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\math.h \
  D:\code\clion_code\Template\Myapp\Inc/arm_const_structs.h \
  D:\code\clion_code\Template\Myapp\Inc/arm_common_tables.h \
- D:\code\clion_code\Template\Myapp\Inc/FFT_Draw.h
+ D:\code\clion_code\Template\Myapp\Inc/FFT_Draw.h \
+ D:\code\clion_code\Template\Core\Inc/tim.h
