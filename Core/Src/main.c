@@ -29,7 +29,7 @@
 /* USER CODE BEGIN Includes */
 #include "stdio.h"
 #include "lcd.h"
-
+#include "All_head.h"
 #include "scheduler.h"
 #define FFT_LENGTH 1024
 /* USER CODE END Includes */
@@ -56,7 +56,7 @@ uint8_t _write(int file, char *ptr,int len)
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-uint16_t adcBuff[1024];
+
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -115,6 +115,7 @@ int main(void)
   MX_USART1_UART_Init();
   MX_TIM2_Init();
   MX_TIM8_Init();
+  MX_ADC2_Init();
   /* USER CODE BEGIN 2 */
     lcd_init();
     lcd_display_dir(1);
@@ -123,7 +124,9 @@ int main(void)
     HAL_TIM_Base_Start(&htim2);
     HAL_TIM_IC_Start_IT(&htim8,TIM_CHANNEL_1);
     HAL_TIM_IC_Start_IT(&htim8,TIM_CHANNEL_2);
-  /* USER CODE END 2 */
+
+
+    /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
@@ -132,6 +135,7 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+
          Scheduler_Run();
 
 

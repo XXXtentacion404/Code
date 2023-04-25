@@ -27,7 +27,6 @@
 #include "stdlib.h"
 #include "lcd.h"
 #include "lcdfont.h"
-//#include "usart.h"
 
 
 /* lcd_ex.c存放各个LCD驱动IC的寄存器初始化部分代码,以简化lcd.c,该.c文件
@@ -1259,18 +1258,21 @@ void lcd_show_string(uint16_t x, uint16_t y, uint16_t width, uint16_t height, ui
     }
 }
 void display(void) {
-    lcd_show_string(5, 8, 200, 24, 24, "OSC-DWY", GREEN);
+
+    lcd_show_string(5, 5, 200, 24, 24, "OSC-DWY", GREEN);
     lcd_show_string(45, 28, 200, 16, 16, "mV/div", GRAY);
     lcd_show_string(5, 48, 200, 16, 16, "max(mv):", GRAY);
     lcd_show_string(5, 68, 200, 16, 16, "min(mv):", GRAY);
     lcd_show_string(5, 88, 200, 16, 16, "vpp(mv):", GRAY);
     lcd_show_string(5, 108, 200, 16, 16, "f(Hz):", GRAY);
-    lcd_show_string(5, 128, 200, 16, 16, "boxing:", GRAY);  //采样率
-    lcd_show_string(5, 148, 200, 16, 16, "Hz", GRAY);
+    lcd_show_string(5, 128, 200, 16, 16, "wave form:", GRAY);
+    lcd_show_string(5, 148, 200, 16, 16, "Sampling rate", GRAY);//采样率
     lcd_show_string(100, 13, 200, 16, 16, "IN:PA7", BRRED);
     lcd_show_xnum(5, 28, 12345, 5, 16, 1, BLUE);
-    lcd_draw_line(287, 0, 287, 230, RED);
-    lcd_draw_line(287, 230, 800, 230, RED);
+    lcd_show_string(5, 168, 200, 16, 16, "phase", GRAY);
+    lcd_show_string(5, 188, 200, 16, 16, "duty cycle", GRAY);
+    lcd_show_string(5, 208, 100, 8, 16, "f(Hz)", GRAY);
+
 }
 /**
  * @brief       画粗线
