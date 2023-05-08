@@ -20,7 +20,11 @@
 /* Includes ------------------------------------------------------------------*/
 #include "usart.h"
 
+
 /* USER CODE BEGIN 0 */
+//volatile uint8_t rx_len = 0;  //接收一帧数据的长度
+//volatile uint8_t recv_end_flag = 0; //一帧数据接收完成标志
+//uint8_t rx_buffer[100]={0};  //接收数据缓存数组
 
 /* USER CODE END 0 */
 
@@ -53,7 +57,8 @@ void MX_USART1_UART_Init(void)
     Error_Handler();
   }
   /* USER CODE BEGIN USART1_Init 2 */
-
+//    __HAL_UART_ENABLE_IT(&huart1, UART_IT_IDLE); //使能IDLE中断
+//    HAL_UART_Receive_DMA(&huart1,rx_buffer,BUFFER_SIZE);
   /* USER CODE END USART1_Init 2 */
 
 }

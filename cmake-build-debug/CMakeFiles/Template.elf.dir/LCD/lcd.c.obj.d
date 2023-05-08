@@ -57,6 +57,20 @@ CMakeFiles/Template.elf.dir/LCD/lcd.c.obj: \
  D:\code\clion_code\Template\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim_ex.h \
  D:\code\clion_code\Template\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_uart.h \
  D:\code\clion_code\Template\LCD\lcdfont.h \
+ d:\laboratory\clion\gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\stdio.h \
+ d:\laboratory\clion\gcc\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdarg.h \
+ d:\laboratory\clion\gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\types.h \
+ d:\laboratory\clion\gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\endian.h \
+ d:\laboratory\clion\gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_endian.h \
+ d:\laboratory\clion\gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\select.h \
+ d:\laboratory\clion\gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_sigset.h \
+ d:\laboratory\clion\gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_timeval.h \
+ d:\laboratory\clion\gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\timespec.h \
+ d:\laboratory\clion\gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_timespec.h \
+ d:\laboratory\clion\gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_pthreadtypes.h \
+ d:\laboratory\clion\gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\sched.h \
+ d:\laboratory\clion\gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\types.h \
+ d:\laboratory\clion\gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\stdio.h \
  D:\code\clion_code\Template\LCD\lcd_ex.c \
  D:\code\clion_code\Template\Myapp\Inc/delay.h \
  D:\code\clion_code\Template\Myapp\Inc/sys.h

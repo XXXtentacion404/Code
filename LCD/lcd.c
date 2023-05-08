@@ -27,6 +27,7 @@
 #include "stdlib.h"
 #include "lcd.h"
 #include "lcdfont.h"
+#include "stdio.h"
 
 
 /* lcd_ex.c存放各个LCD驱动IC的寄存器初始化部分代码,以简化lcd.c,该.c文件
@@ -1348,29 +1349,11 @@ void lcd_draw_bline(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, uint8_t 
         }
     }
 }
-void lcd_show_float(uint16_t x, uint16_t y, float num, uint8_t size, uint8_t mode, uint16_t color)
+void lcd_show_float(uint16_t x, uint16_t y, float num, uint8_t size, uint16_t color)
 {
-    // 先将整数部分显示出来
-    int integer = (int)num;
-    int len = 1;
-    while (integer >= 10)
-    {
-        integer /= 10;
-        len++;
-    }
-    lcd_show_xnum(x, y, (uint32_t)integer, len, size, mode, color);
-
-    // 显示小数点
-    lcd_show_char(x + (size / 2)*len, y, '.', size, mode, color);
-
-    // 再将小数部分显示出来
-    float decimal = num - integer;
-    for (int i = 0; i < 2; i++) // 显示两位小数
-    {
-        decimal *= 10;
-        lcd_show_char(x + (size / 2)*(len + i + 1), y, (int)decimal + '0', size, mode, color);
-        decimal -= (int)decimal;
-    }
+    char temp[64];
+    sprintf(temp, "%f", num);
+    lcd_show_string(x, y, 32, 10, size, temp, color);//VPP峰峰值
 }
 
 

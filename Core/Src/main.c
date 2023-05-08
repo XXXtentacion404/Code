@@ -29,9 +29,9 @@
 /* USER CODE BEGIN Includes */
 #include "stdio.h"
 #include "lcd.h"
-#include "All_head.h"
 #include "scheduler.h"
-#define FFT_LENGTH 1024
+//#define FFT_LENGTH 1024
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -119,11 +119,12 @@ int main(void)
   /* USER CODE BEGIN 2 */
     lcd_init();
     lcd_display_dir(1);
+    lcd_clear(BLACK);
     HAL_Delay(500);
     display();
     HAL_TIM_Base_Start(&htim2);
-    HAL_TIM_IC_Start_IT(&htim8,TIM_CHANNEL_1);
-    HAL_TIM_IC_Start_IT(&htim8,TIM_CHANNEL_2);
+//    HAL_TIM_IC_Start_IT(&htim8,TIM_CHANNEL_1);
+//    HAL_TIM_IC_Start_IT(&htim8,TIM_CHANNEL_2);
 
 
     /* USER CODE END 2 */

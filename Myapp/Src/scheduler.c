@@ -1,11 +1,18 @@
 #include "All_head.h"
 
+uint16_t adcBuff[1024];
+float32_t fft_outputbuf[FFT_LENGTH];
+float fft_inputbuf[FFT_LENGTH * 2];
 static void Loop_1000Hz(void)	//1msִ��һ��
 {
-    clear_point();
-       FFT();
+
+    AdcGetVal_dma(adcBuff,SIZE);
+    FFT_1024(adcBuff,FFT_LENGTH);
+    Draw_wave(adcBuff,SIZE);
+    Draw_fft(fft_outputbuf,FFT_LENGTH);
+    Show_fre(1000, 1024,  adcBuff,fft_outputbuf);
     HAL_GPIO_TogglePin(GPIOF,GPIO_PIN_9);
-    HAL_TIM_IC_CaptureCallback(&htim8);
+//    HAL_TIM_IC_CaptureCallback(&htim8);
 
 }
 

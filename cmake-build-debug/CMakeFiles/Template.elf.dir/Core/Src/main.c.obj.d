@@ -78,18 +78,4 @@ CMakeFiles/Template.elf.dir/Core/Src/main.c.obj: \
  d:\laboratory\clion\gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\stdlib.h \
  d:\laboratory\clion\gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\alloca.h \
  D:\code\clion_code\Template\LCD/sys.h \
- D:\code\clion_code\Template\Myapp\Inc/All_head.h \
- d:\laboratory\clion\gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\string.h \
- d:\laboratory\clion\gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_locale.h \
- d:\laboratory\clion\gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\strings.h \
- d:\laboratory\clion\gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\string.h \
- D:\code\clion_code\Template\Myapp\Inc/scheduler.h \
- D:\code\clion_code\Template\Myapp\Inc/usart.h \
- D:\code\clion_code\Template\Myapp\Inc/sys.h \
- D:\code\clion_code\Template\Myapp\Inc/vofa+.h \
- D:\code\clion_code\Template\Myapp\Inc/arm_math.h \
- d:\laboratory\clion\gcc\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\math.h \
- D:\code\clion_code\Template\Myapp\Inc/arm_const_structs.h \
- D:\code\clion_code\Template\Myapp\Inc/arm_common_tables.h \
- D:\code\clion_code\Template\Myapp\Inc/FFT_Draw.h \
  D:\code\clion_code\Template\Myapp\Inc/scheduler.h
